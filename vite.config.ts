@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: { alias: { '@': path.resolve(__dirname, './src') } },
   test: { environment: 'jsdom', setupFiles: ['./src/test/setup.ts'] },
+  base: process.env.VITE_BASE_PATH || "/red-carabao",
 })
