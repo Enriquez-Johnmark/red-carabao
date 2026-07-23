@@ -22,7 +22,7 @@
   position: absolute;
   z-index: 1;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 29, 25, 0.62), rgba(5, 29, 25, 0.22));
+  background: linear-gradient(90deg, rgba(5, 29, 25, 0.58), rgba(5, 29, 25, 0.2));
 }
 .expedition-hero-copy {
   position: relative;
