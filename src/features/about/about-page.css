@@ -49,7 +49,7 @@
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   min-height: 670px;
-  background: #e7d7b5;
+  background: var(--rc-dune);
 }
 .hosts-section > img {
   width: 100%;

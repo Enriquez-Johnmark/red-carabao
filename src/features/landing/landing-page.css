@@ -33,9 +33,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(5, 29, 25, 0.58),
-    rgba(5, 29, 25, 0.25) 48%,
-    rgba(5, 29, 25, 0.16)
+    var(--rc-hero-shade-start),
+    var(--rc-hero-shade-mid) 48%,
+    var(--rc-hero-shade-end)
   );
 }
 .cinematic-content {
@@ -75,7 +75,7 @@
 .hero-copy {
   max-width: 530px;
   margin: 30px 0;
-  color: #eef0df;
+  color: var(--rc-on-image-muted);
   font-size: 18px;
   line-height: 1.65;
 }
@@ -122,12 +122,12 @@
   height: 15px;
 }
 .video-control {
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--rc-on-image-border);
   border-radius: 50%;
   color: var(--paper);
 }
 .video-control:hover {
-  background: rgba(255, 255, 255, 0.16);
+  background: var(--rc-on-image-panel);
   color: var(--paper);
 }
 
@@ -218,7 +218,7 @@
   color: var(--sun);
 }
 .signature-copy [data-slot='badge'] {
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid var(--rc-on-image-border-soft);
   background: transparent;
   color: var(--paper);
 }
@@ -273,7 +273,7 @@
 }
 .gallery-section {
   padding: clamp(92px, 10vw, 140px) clamp(24px, 5vw, 72px);
-  background: #e7d7b5;
+  background: var(--rc-dune);
 }
 .gallery-heading {
   width: min(1280px, 100%);
@@ -311,7 +311,7 @@
   display: grid;
   grid-template-columns: 0.86fr 1.14fr;
   min-height: 680px;
-  background: var(--coral);
+  background: var(--tide);
   color: var(--paper);
 }
 .rice-copy {
@@ -321,14 +321,14 @@
   padding: clamp(68px, 8vw, 128px);
 }
 .rice-copy .route-label {
-  color: #ffd38c;
+  color: var(--rc-sun-soft);
 }
 .rice-copy h2 {
   margin: 0;
 }
 .rice-copy > p:not(.route-label) {
   max-width: 33ch;
-  color: #fff0de;
+  color: var(--rc-on-dark-muted);
 }
 .rice-section > img {
   width: 100%;
@@ -341,7 +341,7 @@
   align-items: center;
   gap: 8px;
   margin-top: 20px;
-  color: #ffd38c;
+  color: var(--rc-sun-soft);
   font-size: 14px;
   font-weight: 700;
 }
@@ -358,7 +358,7 @@
   color: var(--muted-ink);
 }
 .faq-list {
-  border-top: 1px solid rgba(18, 62, 54, 0.18);
+  border-top: 1px solid var(--rc-ink-18);
 }
 .faq-list [data-slot='accordion-trigger'] {
   padding: 23px 0;

@@ -1,6 +1,6 @@
 .site-shell {
   overflow: hidden;
-  background: var(--sand);
+  background: var(--rc-canvas);
 }
 .skip-link {
   position: fixed;
@@ -33,15 +33,15 @@
   color: var(--paper);
 }
 .site-header-wrap.site-header-solid {
-  background: rgba(245, 240, 223, 0.96);
+  background: var(--rc-header-surface);
   color: var(--ink);
-  border-bottom: 1px solid rgba(18, 62, 54, 0.12);
+  border-bottom: 1px solid var(--rc-ink-12);
 }
 .site-header-wrap.site-header-scrolled {
   position: fixed;
-  background: rgba(245, 240, 223, 0.96);
+  background: var(--rc-header-surface);
   color: var(--ink);
-  box-shadow: 0 10px 30px rgba(18, 62, 54, 0.12);
+  box-shadow: 0 10px 30px var(--rc-ink-12);
   backdrop-filter: blur(13px);
 }
 .site-header {
@@ -99,14 +99,22 @@
   padding: 0 18px;
   font-size: 14px;
   font-weight: 750;
-  box-shadow: 0 8px 17px rgba(159, 47, 51, 0.2);
+  box-shadow: 0 8px 17px var(--rc-brand-shadow);
 }
 .header-book .cta-button:hover,
 .cta-button:hover {
-  background: #85282c;
+  background: var(--coral-hover);
 }
 .mobile-toggle {
   display: none;
+}
+.site-header-overlay .mobile-toggle {
+  border: 1px solid var(--rc-on-image-border-soft);
+  background: var(--rc-header-overlay-control);
+  color: var(--paper);
+}
+.site-header-solid .mobile-toggle {
+  color: var(--ink);
 }
 .mobile-sheet {
   background: var(--sand);
@@ -120,7 +128,7 @@
   padding: 24px 28px;
 }
 .mobile-nav a {
-  border-bottom: 1px solid rgba(18, 62, 54, 0.15);
+  border-bottom: 1px solid var(--rc-ink-15);
   padding: 15px 0;
   color: var(--ink);
   font: 600 36px/0.95 var(--font-heading);

@@ -1,6 +1,6 @@
 .destination-page,
 .about-page {
-  background: var(--sand);
+  background: var(--rc-canvas);
 }
 .expedition-hero {
   position: relative;
@@ -22,7 +22,11 @@
   position: absolute;
   z-index: 1;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 29, 25, 0.58), rgba(5, 29, 25, 0.2));
+  background: linear-gradient(
+    90deg,
+    var(--rc-hero-shade-interior-start),
+    var(--rc-hero-shade-interior-end)
+  );
 }
 .expedition-hero-copy {
   position: relative;
@@ -35,8 +39,8 @@
   color: var(--sun);
 }
 .expedition-hero-copy [data-slot='badge'] {
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--rc-on-image-border-soft);
+  background: var(--rc-on-image-panel);
   color: var(--paper);
 }
 .expedition-hero h1 {
@@ -46,7 +50,7 @@
 }
 .expedition-hero-copy > p:not(.route-label) {
   max-width: 38ch;
-  color: #eef0df;
+  color: var(--rc-on-image-muted);
   font-size: 18px;
 }
 .expedition-intro {
@@ -131,7 +135,7 @@
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   min-height: 620px;
-  background: #e7d7b5;
+  background: var(--rc-dune);
 }
 .destination-closing > img {
   width: 100%;

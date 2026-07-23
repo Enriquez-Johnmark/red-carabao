@@ -52,7 +52,7 @@
   text-underline-offset: 4px;
 }
 .booking-dialog {
-  border: 1px solid rgba(18, 62, 54, 0.18);
+  border: 1px solid var(--rc-ink-18);
   background: var(--paper);
 }
 .dialog-title {
