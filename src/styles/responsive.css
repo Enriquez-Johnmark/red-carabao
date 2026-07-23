@@ -28,7 +28,7 @@
     min-height: max(760px, 100svh);
   }
   .cinematic-shade {
-    background: linear-gradient(180deg, rgba(5, 29, 25, 0.2), rgba(5, 29, 25, 0.83));
+    background: linear-gradient(180deg, rgba(5, 29, 25, 0.14), rgba(5, 29, 25, 0.68));
   }
   .cinematic-content {
     margin-left: 22px;
