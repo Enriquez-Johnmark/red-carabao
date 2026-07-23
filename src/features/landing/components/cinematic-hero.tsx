@@ -6,7 +6,9 @@ import { BookingDialog } from '@/components/site/booking-dialog'
 import { homeMedia } from '../data'
 
 function prefersReducedMotion() {
-  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  return (
+    typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  )
 }
 
 export function CinematicHero() {
@@ -37,18 +39,66 @@ export function CinematicHero() {
 
   const showVideo = !reducedMotion && !videoFailed
 
-  return <section className="cinematic-hero" aria-labelledby="home-hero-title">
-    <img className="cinematic-poster" src={homeMedia.poster} alt="Travelers sharing breakfast in Coron" width="1800" height="1200" fetchPriority="high" />
-    {showVideo && <video ref={videoRef} className="cinematic-video" autoPlay muted loop playsInline preload="metadata" poster={homeMedia.poster} onError={() => setVideoFailed(true)} aria-label="Moving scenes from Coron Island">
-      <source src={homeMedia.video} type="video/mp4" />
-    </video>}
-    <div className="cinematic-shade" />
-    <div className="cinematic-content">
-      <p className="route-label">Coron, Palawan · purposeful island travel</p>
-      <h1 id="home-hero-title">Join the <em>tribe.</em></h1>
-      <p className="hero-copy">Unforgettable group adventures for solo travelers and friends—made with care for the people and places that make Coron extraordinary.</p>
-      <div className="hero-actions"><BookingDialog /><Link className="hero-secondary-link" to="/island-crash">Meet Island Crash <span aria-hidden="true">↗</span></Link></div>
-    </div>
-    <div className="cinematic-meta"><span><VolumeX /> Sound off</span>{showVideo && <Button variant="ghost" size="icon" className="video-control" onClick={togglePlayback} aria-label={isPlaying ? 'Pause Coron video' : 'Play Coron video'} aria-pressed={!isPlaying}>{isPlaying ? <Pause /> : <Play />}</Button>}</div>
-  </section>
+  return (
+    <section className="cinematic-hero" aria-labelledby="home-hero-title">
+      <img
+        className="cinematic-poster"
+        src={homeMedia.poster}
+        alt="Travelers sharing breakfast in Coron"
+        width="1800"
+        height="1200"
+        fetchPriority="high"
+      />
+      {showVideo && (
+        <video
+          ref={videoRef}
+          className="cinematic-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster={homeMedia.poster}
+          onError={() => setVideoFailed(true)}
+          aria-label="Moving scenes from Coron Island"
+        >
+          <source src={homeMedia.video} type="video/mp4" />
+        </video>
+      )}
+      <div className="cinematic-shade" />
+      <div className="cinematic-content">
+        <p className="route-label">Coron, Palawan · purposeful island travel</p>
+        <h1 id="home-hero-title">
+          Join the <em>tribe.</em>
+        </h1>
+        <p className="hero-copy">
+          Unforgettable group adventures for solo travelers and friends—made with care for the
+          people and places that make Coron extraordinary.
+        </p>
+        <div className="hero-actions">
+          <BookingDialog />
+          <Link className="hero-secondary-link" to="/island-crash">
+            Meet Island Crash <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
+      </div>
+      <div className="cinematic-meta">
+        <span>
+          <VolumeX /> Sound off
+        </span>
+        {showVideo && (
+          <Button
+            variant="ghost"
+            size="icon"
+            className="video-control"
+            onClick={togglePlayback}
+            aria-label={isPlaying ? 'Pause Coron video' : 'Play Coron video'}
+            aria-pressed={!isPlaying}
+          >
+            {isPlaying ? <Pause /> : <Play />}
+          </Button>
+        )}
+      </div>
+    </section>
+  )
 }

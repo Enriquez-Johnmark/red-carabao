@@ -1,0 +1,65 @@
+.site-footer {
+  width: min(1280px, 100%);
+  margin: auto;
+  padding: 72px clamp(24px, 5vw, 72px) 30px;
+}
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 42px;
+}
+.footer-main .brand img {
+  width: 64px;
+  height: 64px;
+}
+.footer-main p {
+  max-width: 280px;
+  margin: 15px 0 0;
+  font: 600 30px/0.9 var(--font-heading);
+  letter-spacing: -0.025em;
+}
+.footer-contact {
+  display: grid;
+  gap: 8px;
+}
+.footer-contact a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted-ink);
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-contact a:hover {
+  color: var(--coral);
+}
+.footer-contact svg {
+  width: 16px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding-top: 22px;
+  color: var(--muted-ink);
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-bottom a {
+  color: inherit;
+  text-underline-offset: 4px;
+}
+.booking-dialog {
+  border: 1px solid rgba(18, 62, 54, 0.18);
+  background: var(--paper);
+}
+.dialog-title {
+  font: 600 42px/0.84 var(--font-heading);
+  letter-spacing: -0.035em;
+}
+.booking-dialog [data-slot='dialog-description'] {
+  color: var(--muted-ink);
+  font-size: 16px;
+}

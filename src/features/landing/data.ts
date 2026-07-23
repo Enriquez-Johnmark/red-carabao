@@ -25,12 +25,31 @@ export const pressMarks = [
 
 export const islandGallery = [
   { image: coast, alt: 'A coastline seen from above near Coron Island', width: 1600, height: 1067 },
-  { image: campTable, alt: 'Guests sharing food at a Red Carabao island camp', width: 1600, height: 1065 },
-  { image: beachCamp, alt: 'Red Carabao guests gathered by a beach camp', width: 1600, height: 1066 },
+  {
+    image: campTable,
+    alt: 'Guests sharing food at a Red Carabao island camp',
+    width: 1600,
+    height: 1065,
+  },
+  {
+    image: beachCamp,
+    alt: 'Red Carabao guests gathered by a beach camp',
+    width: 1600,
+    height: 1066,
+  },
 ] as const
 
 export const faqs = [
-  ['Can I come solo?', 'Yes. Red Carabao welcomes curious solo travelers and friends; shared meals and small groups make meeting people feel natural.'],
-  ['What is Island Crash?', 'It is a one-day Coron escape to remote coves, a shared Filipino BBQ, and time with Tagbanua hosts at Camp Carabao.'],
-  ['How do future trips work?', 'The next application experience is being prepared. For now, explore the journey and keep Coron on your horizon.'],
+  [
+    'Can I come solo?',
+    'Yes. Red Carabao welcomes curious solo travelers and friends; shared meals and small groups make meeting people feel natural.',
+  ],
+  [
+    'What is Island Crash?',
+    'It is a one-day Coron escape to remote coves, a shared Filipino BBQ, and time with Tagbanua hosts at Camp Carabao.',
+  ],
+  [
+    'How do future trips work?',
+    'The next application experience is being prepared. For now, explore the journey and keep Coron on your horizon.',
+  ],
 ] as const

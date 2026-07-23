@@ -1,134 +1,134 @@
 - generic [active] [ref=e1]:
-  - link "Skip to content" [ref=e2] [cursor=pointer]:
-    - /url: "#content"
-  - generic [ref=e4]:
-    - link "Skip to content" [ref=e5] [cursor=pointer]:
-      - /url: "#content"
-    - banner [ref=e6]:
-      - link "Red Carabao home" [ref=e7] [cursor=pointer]:
-        - /url: /
-        - img "Red Carabao" [ref=e8]
-      - navigation "Main navigation" [ref=e9]:
-        - link "Home" [ref=e10] [cursor=pointer]:
-          - /url: /
-        - link "Island Crash" [ref=e11] [cursor=pointer]:
-          - /url: /island-crash
-        - link "About Us" [ref=e12] [cursor=pointer]:
-          - /url: /about-us
-      - button "Apply for an expedition" [ref=e14] [cursor=pointer]
-    - main [ref=e15]:
-      - generic [ref=e16]:
-        - generic [ref=e17]: Coron & El Nido · made for the gloriously curious
-        - button "Dismiss announcement" [ref=e18] [cursor=pointer]
-      - region [ref=e22]:
-        - generic [ref=e23]:
-          - generic [ref=e24]: Purposeful travel · Coron
-          - heading [level=1] [ref=e25]:
-            - text: Go where the
-            - emphasis [ref=e26]: map
-            - text: gets interesting.
-          - paragraph [ref=e27]: Small-group adventures for the curious, the sun-chasers, and anyone ready to trade the itinerary for a proper story.
-          - generic [ref=e28]:
-            - button "Apply for an expedition" [ref=e29] [cursor=pointer]
-            - link "Meet Island Crash" [ref=e30] [cursor=pointer]:
-              - /url: /island-crash
-        - generic [ref=e34]:
-          - generic [ref=e35]: Islandtime
-          - generic [ref=e37]: ° 08
-        - generic [ref=e38]: Coron, Palawan12.94° N, 120.21° E
-      - generic [ref=e39]:
-        - paragraph [ref=e40]: NOT YOUR AVERAGE HOLIDAY
-        - generic [ref=e41]:
-          - heading "Travel wide awake." [level=2] [ref=e42]
-          - generic [ref=e43]:
-            - paragraph [ref=e44]: We bring active, open-hearted people together for unforgettable group adventures around the Philippines.
-            - paragraph [ref=e45]: Come solo or with friends. Either way, you’ll leave with salt in your hair, a few new rituals, and people you’ll make plans with before the flight home.
-            - link "Why Red Carabao" [ref=e46] [cursor=pointer]:
-              - /url: /about-us
-        - generic [ref=e50]:
-          - generic [ref=e51]: Wild places
-          - generic [ref=e54]: Shared tables
-          - generic [ref=e59]: Local purpose
-      - generic [ref=e63]:
-        - generic [ref=e64]:
-          - generic [ref=e65]:
-            - paragraph [ref=e66]: PICK YOUR PACE
-            - heading [level=2] [ref=e67]:
-              - text: Three ways to disappear
-              - emphasis [ref=e68]: beautifully.
-          - paragraph [ref=e69]: These aren’t checklists in the sun. They’re a reason to put your phone down, look up, and follow the fun.
-        - generic [ref=e70]:
-          - generic [ref=e71]:
-            - img "Travelers gathered near a beach camp in Coron" [ref=e72]
-            - generic [ref=e73]:
-              - generic [ref=e74]:
-                - generic [ref=e75]: "01"
-                - generic [ref=e76]: 1 day · Coron
-              - heading "Island Crash" [level=3] [ref=e77]
-              - generic [ref=e78]: A full day of saltwater, hidden coves, and the kind of stories that begin with “remember when?”.
-            - generic [ref=e79]:
-              - separator [ref=e80]
-              - generic [ref=e81]: Island pace. Open water. Good company.
-            - link "Explore Island Crash" [ref=e87] [cursor=pointer]:
-              - /url: /island-crash
-          - generic [ref=e91]:
-            - img "Red Carabao travelers sharing food at an island camp" [ref=e92]
-            - generic [ref=e93]:
-              - generic [ref=e94]:
-                - generic [ref=e95]: "02"
-                - generic [ref=e96]: 2 days · Coron
-              - heading "Camp Carabao" [level=3] [ref=e97]
-              - generic [ref=e98]: Sleep under a sky full of stars, share a beach kitchen, and let the island set the tempo.
-            - generic [ref=e99]:
-              - separator [ref=e100]
-              - generic [ref=e101]: Island pace. Open water. Good company.
-            - button "Future expedition" [ref=e107] [cursor=pointer]
-          - generic [ref=e108]:
-            - img "Travelers on a tropical island expedition" [ref=e109]
-            - generic [ref=e110]:
-              - generic [ref=e111]:
-                - generic [ref=e112]: "03"
-                - generic [ref=e113]: 3 days · Coron to El Nido
-              - heading "Castaway Expedition" [level=3] [ref=e114]
-              - generic [ref=e115]: "The long way between two legendary places: boats, bonfires, limestone, and your new favourite people."
-            - generic [ref=e116]:
-              - separator [ref=e117]
-              - generic [ref=e118]: Island pace. Open water. Good company.
-            - button "Future expedition" [ref=e124] [cursor=pointer]
-      - generic [ref=e125]:
-        - generic [ref=e126]:
-          - paragraph [ref=e127]: THE RED CARABAO WAY
-          - heading [level=2] [ref=e128]:
-            - text: Not a crowd.
-            - emphasis [ref=e129]: A tribe.
-          - paragraph [ref=e130]: Between campfire stories, muddy feet, and the daily question of “one more swim?”, strangers become your people.
-        - img "Red Carabao travelers sharing a meal at a beach camp" [ref=e131]
-      - generic [ref=e132]:
-        - generic [ref=e133]:
-          - paragraph [ref=e134]: A FEW GOOD QUESTIONS
-          - heading "Before you pack light." [level=2] [ref=e135]: Before youpack light.
-          - paragraph [ref=e136]: We’re here for the first-timer, the last-minute yes, and the friend who needs a gentle nudge.
-        - generic [ref=e137]:
-          - heading [level=3] [ref=e139]:
-            - button "Can I come solo?" [ref=e140] [cursor=pointer]
-          - heading [level=3] [ref=e142]:
-            - button "What kind of traveler is this for?" [ref=e143] [cursor=pointer]
-          - heading [level=3] [ref=e145]:
-            - button "Is booking available now?" [ref=e146] [cursor=pointer]
-    - contentinfo [ref=e147]:
-      - generic [ref=e148]:
-        - link "Red Carabao home" [ref=e149] [cursor=pointer]:
-          - /url: /
-          - img "Red Carabao" [ref=e150]
-        - paragraph [ref=e151]: Travel with purpose. Leave a positive footprint.
-        - button "Apply for an expedition" [ref=e152] [cursor=pointer]
-      - separator [ref=e153]
-      - generic [ref=e154]:
-        - generic [ref=e155]: © 2026 Red Carabao Philippines
-        - generic [ref=e156]:
-          - link "Island Crash" [ref=e157] [cursor=pointer]:
-            - /url: /island-crash
-          - text: ·
-          - link "About Us" [ref=e158] [cursor=pointer]:
-            - /url: /about-us
-    - region "Notifications alt+T"
+    - link "Skip to content" [ref=e2] [cursor=pointer]:
+        - /url: '#content'
+    - generic [ref=e4]:
+        - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: '#content'
+        - banner [ref=e6]:
+            - link "Red Carabao home" [ref=e7] [cursor=pointer]:
+                - /url: /
+                - img "Red Carabao" [ref=e8]
+            - navigation "Main navigation" [ref=e9]:
+                - link "Home" [ref=e10] [cursor=pointer]:
+                    - /url: /
+                - link "Island Crash" [ref=e11] [cursor=pointer]:
+                    - /url: /island-crash
+                - link "About Us" [ref=e12] [cursor=pointer]:
+                    - /url: /about-us
+            - button "Apply for an expedition" [ref=e14] [cursor=pointer]
+        - main [ref=e15]:
+            - generic [ref=e16]:
+                - generic [ref=e17]: Coron & El Nido · made for the gloriously curious
+                - button "Dismiss announcement" [ref=e18] [cursor=pointer]
+            - region [ref=e22]:
+                - generic [ref=e23]:
+                    - generic [ref=e24]: Purposeful travel · Coron
+                    - heading [level=1] [ref=e25]:
+                        - text: Go where the
+                        - emphasis [ref=e26]: map
+                        - text: gets interesting.
+                    - paragraph [ref=e27]: Small-group adventures for the curious, the sun-chasers, and anyone ready to trade the itinerary for a proper story.
+                    - generic [ref=e28]:
+                        - button "Apply for an expedition" [ref=e29] [cursor=pointer]
+                        - link "Meet Island Crash" [ref=e30] [cursor=pointer]:
+                            - /url: /island-crash
+                - generic [ref=e34]:
+                    - generic [ref=e35]: Islandtime
+                    - generic [ref=e37]: ° 08
+                - generic [ref=e38]: Coron, Palawan12.94° N, 120.21° E
+            - generic [ref=e39]:
+                - paragraph [ref=e40]: NOT YOUR AVERAGE HOLIDAY
+                - generic [ref=e41]:
+                    - heading "Travel wide awake." [level=2] [ref=e42]
+                    - generic [ref=e43]:
+                        - paragraph [ref=e44]: We bring active, open-hearted people together for unforgettable group adventures around the Philippines.
+                        - paragraph [ref=e45]: Come solo or with friends. Either way, you’ll leave with salt in your hair, a few new rituals, and people you’ll make plans with before the flight home.
+                        - link "Why Red Carabao" [ref=e46] [cursor=pointer]:
+                            - /url: /about-us
+                - generic [ref=e50]:
+                    - generic [ref=e51]: Wild places
+                    - generic [ref=e54]: Shared tables
+                    - generic [ref=e59]: Local purpose
+            - generic [ref=e63]:
+                - generic [ref=e64]:
+                    - generic [ref=e65]:
+                        - paragraph [ref=e66]: PICK YOUR PACE
+                        - heading [level=2] [ref=e67]:
+                            - text: Three ways to disappear
+                            - emphasis [ref=e68]: beautifully.
+                    - paragraph [ref=e69]: These aren’t checklists in the sun. They’re a reason to put your phone down, look up, and follow the fun.
+                - generic [ref=e70]:
+                    - generic [ref=e71]:
+                        - img "Travelers gathered near a beach camp in Coron" [ref=e72]
+                        - generic [ref=e73]:
+                            - generic [ref=e74]:
+                                - generic [ref=e75]: '01'
+                                - generic [ref=e76]: 1 day · Coron
+                            - heading "Island Crash" [level=3] [ref=e77]
+                            - generic [ref=e78]: A full day of saltwater, hidden coves, and the kind of stories that begin with “remember when?”.
+                        - generic [ref=e79]:
+                            - separator [ref=e80]
+                            - generic [ref=e81]: Island pace. Open water. Good company.
+                        - link "Explore Island Crash" [ref=e87] [cursor=pointer]:
+                            - /url: /island-crash
+                    - generic [ref=e91]:
+                        - img "Red Carabao travelers sharing food at an island camp" [ref=e92]
+                        - generic [ref=e93]:
+                            - generic [ref=e94]:
+                                - generic [ref=e95]: '02'
+                                - generic [ref=e96]: 2 days · Coron
+                            - heading "Camp Carabao" [level=3] [ref=e97]
+                            - generic [ref=e98]: Sleep under a sky full of stars, share a beach kitchen, and let the island set the tempo.
+                        - generic [ref=e99]:
+                            - separator [ref=e100]
+                            - generic [ref=e101]: Island pace. Open water. Good company.
+                        - button "Future expedition" [ref=e107] [cursor=pointer]
+                    - generic [ref=e108]:
+                        - img "Travelers on a tropical island expedition" [ref=e109]
+                        - generic [ref=e110]:
+                            - generic [ref=e111]:
+                                - generic [ref=e112]: '03'
+                                - generic [ref=e113]: 3 days · Coron to El Nido
+                            - heading "Castaway Expedition" [level=3] [ref=e114]
+                            - generic [ref=e115]: 'The long way between two legendary places: boats, bonfires, limestone, and your new favourite people.'
+                        - generic [ref=e116]:
+                            - separator [ref=e117]
+                            - generic [ref=e118]: Island pace. Open water. Good company.
+                        - button "Future expedition" [ref=e124] [cursor=pointer]
+            - generic [ref=e125]:
+                - generic [ref=e126]:
+                    - paragraph [ref=e127]: THE RED CARABAO WAY
+                    - heading [level=2] [ref=e128]:
+                        - text: Not a crowd.
+                        - emphasis [ref=e129]: A tribe.
+                    - paragraph [ref=e130]: Between campfire stories, muddy feet, and the daily question of “one more swim?”, strangers become your people.
+                - img "Red Carabao travelers sharing a meal at a beach camp" [ref=e131]
+            - generic [ref=e132]:
+                - generic [ref=e133]:
+                    - paragraph [ref=e134]: A FEW GOOD QUESTIONS
+                    - heading "Before you pack light." [level=2] [ref=e135]: Before youpack light.
+                    - paragraph [ref=e136]: We’re here for the first-timer, the last-minute yes, and the friend who needs a gentle nudge.
+                - generic [ref=e137]:
+                    - heading [level=3] [ref=e139]:
+                        - button "Can I come solo?" [ref=e140] [cursor=pointer]
+                    - heading [level=3] [ref=e142]:
+                        - button "What kind of traveler is this for?" [ref=e143] [cursor=pointer]
+                    - heading [level=3] [ref=e145]:
+                        - button "Is booking available now?" [ref=e146] [cursor=pointer]
+        - contentinfo [ref=e147]:
+            - generic [ref=e148]:
+                - link "Red Carabao home" [ref=e149] [cursor=pointer]:
+                    - /url: /
+                    - img "Red Carabao" [ref=e150]
+                - paragraph [ref=e151]: Travel with purpose. Leave a positive footprint.
+                - button "Apply for an expedition" [ref=e152] [cursor=pointer]
+            - separator [ref=e153]
+            - generic [ref=e154]:
+                - generic [ref=e155]: © 2026 Red Carabao Philippines
+                - generic [ref=e156]:
+                    - link "Island Crash" [ref=e157] [cursor=pointer]:
+                        - /url: /island-crash
+                    - text: ·
+                    - link "About Us" [ref=e158] [cursor=pointer]:
+                        - /url: /about-us
+        - region "Notifications alt+T"

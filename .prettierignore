@@ -1,0 +1,10 @@
+.agents/
+.codex/
+.impeccable/
+.playwright-cli/
+.superpowers/
+dist/
+node_modules/
+output/
+package-lock.json
+public/media/

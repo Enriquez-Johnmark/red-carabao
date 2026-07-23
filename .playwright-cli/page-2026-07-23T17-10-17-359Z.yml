@@ -1,374 +1,374 @@
 - generic [ref=f13e3]:
-  - region "top of page"
-  - generic [ref=f13e10]:
-    - banner [ref=f13e11]:
-      - generic [ref=f13e17]:
-        - generic:
-          - generic:
-            - generic [ref=f13e22]:
-              - link [ref=f13e28] [cursor=pointer]:
-                - /url: https://www.redcarabao.com
-              - navigation "Site" [ref=f13e52]:
-                - list [ref=f13e53]:
-                  - listitem [ref=f13e54]:
-                    - link [ref=f13e55] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com
-                      - paragraph [ref=f13e59]: Home
-                  - listitem [ref=f13e60]:
-                    - link [ref=f13e61] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com/island-crash
-                      - paragraph [ref=f13e65]: Island Crash
-                  - listitem [ref=f13e66]:
-                    - link [ref=f13e67] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com/about-us
-                      - paragraph [ref=f13e71]: About Us
-              - link "SEE ALL 2026 TRIPS" [ref=f13e77] [cursor=pointer]:
-                - /url: https://www.redcarabao.com/events-1/island-crash-season-1
-            - button [ref=f13e82] [cursor=pointer]
-    - main [ref=f13e88]:
-      - generic [ref=f13e93]:
-        - generic:
-          - generic:
-            - generic:
-              - generic [ref=f13e102]:
-                - generic [ref=f13e103]:
-                  - generic:
+    - region "top of page"
+    - generic [ref=f13e10]:
+        - banner [ref=f13e11]:
+            - generic [ref=f13e17]:
+                - generic:
                     - generic:
-                      - heading "Our Story" [level=2] [ref=f13e107]:
-                        - generic [ref=f13e108]:
-                          - generic [ref=f13e109]: Our
-                          - generic [ref=f13e110]: Story
-                      - button "Read More" [ref=f13e113] [cursor=pointer]
-                - generic [ref=f13e116]:
-                  - generic:
+                        - generic [ref=f13e22]:
+                            - link [ref=f13e28] [cursor=pointer]:
+                                - /url: https://www.redcarabao.com
+                            - navigation "Site" [ref=f13e52]:
+                                - list [ref=f13e53]:
+                                    - listitem [ref=f13e54]:
+                                        - link [ref=f13e55] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com
+                                            - paragraph [ref=f13e59]: Home
+                                    - listitem [ref=f13e60]:
+                                        - link [ref=f13e61] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com/island-crash
+                                            - paragraph [ref=f13e65]: Island Crash
+                                    - listitem [ref=f13e66]:
+                                        - link [ref=f13e67] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com/about-us
+                                            - paragraph [ref=f13e71]: About Us
+                            - link "SEE ALL 2026 TRIPS" [ref=f13e77] [cursor=pointer]:
+                                - /url: https://www.redcarabao.com/events-1/island-crash-season-1
+                        - button [ref=f13e82] [cursor=pointer]
+        - main [ref=f13e88]:
+            - generic [ref=f13e93]:
+                - generic:
                     - generic:
-                      - heading "Get to Know Us" [level=3] [ref=f13e120]
-                      - paragraph [ref=f13e122]:
-                        - generic [ref=f13e123]: This is a paragraph about your business. Let your visitors know who you are, what you do and what your website is all about. Double click on the text box to edit the text and add all the information you want to share.
-              - region [ref=f13e134]:
-                - generic [ref=f13e136]:
-                  - generic [ref=f13e137] [cursor=pointer]:
-                    - button "image"
-                  - generic [ref=f13e141] [cursor=pointer]:
-                    - button
-                  - generic [ref=f13e145] [cursor=pointer]:
-                    - button
-              - generic [ref=f13e153]:
+                        - generic:
+                            - generic [ref=f13e102]:
+                                - generic [ref=f13e103]:
+                                    - generic:
+                                        - generic:
+                                            - heading "Our Story" [level=2] [ref=f13e107]:
+                                                - generic [ref=f13e108]:
+                                                    - generic [ref=f13e109]: Our
+                                                    - generic [ref=f13e110]: Story
+                                            - button "Read More" [ref=f13e113] [cursor=pointer]
+                                - generic [ref=f13e116]:
+                                    - generic:
+                                        - generic:
+                                            - heading "Get to Know Us" [level=3] [ref=f13e120]
+                                            - paragraph [ref=f13e122]:
+                                                - generic [ref=f13e123]: This is a paragraph about your business. Let your visitors know who you are, what you do and what your website is all about. Double click on the text box to edit the text and add all the information you want to share.
+                            - region [ref=f13e134]:
+                                - generic [ref=f13e136]:
+                                    - generic [ref=f13e137] [cursor=pointer]:
+                                        - button "image"
+                                    - generic [ref=f13e141] [cursor=pointer]:
+                                        - button
+                                    - generic [ref=f13e145] [cursor=pointer]:
+                                        - button
+                            - generic [ref=f13e153]:
+                                - generic:
+                                    - generic:
+                                        - heading "The Team" [level=1] [ref=f13e157]
+                                        - paragraph [ref=f13e158]: Who We Are
+                            - generic [ref=f13e159]:
+                                - generic:
+                                    - generic:
+                                        - generic [ref=f13e167]:
+                                            - img "Sam Tag 17.jpg" [ref=f13e173]
+                                            - generic [ref=f13e174]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Tagbanua Family" [level=2] [ref=f13e178]
+                                                        - paragraph [ref=f13e180]:
+                                                            - generic [ref=f13e181]: Island Hosts
+                                                        - paragraph [ref=f13e182]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e183]: 123-456-7890
+                                                        - paragraph [ref=f13e186]:
+                                                            - link "info@mysite.com" [ref=f13e188] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e190]:
+                                                            - listitem [ref=f13e191]:
+                                                                - link "Facebook" [ref=f13e192] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e193]
+                                                            - listitem [ref=f13e194]:
+                                                                - link "Twitter" [ref=f13e195] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e196]
+                                                            - listitem [ref=f13e197]:
+                                                                - link "LinkedIn" [ref=f13e198] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e199]
+                                        - generic [ref=f13e204]:
+                                            - generic [ref=f13e205]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Captain Benjie" [level=2] [ref=f13e209]
+                                                        - paragraph [ref=f13e211]:
+                                                            - generic [ref=f13e212]: Licensed Boat Captain
+                                                        - paragraph [ref=f13e213]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e214]: 123-456-7890
+                                                        - paragraph [ref=f13e217]:
+                                                            - link "info@mysite.com" [ref=f13e219] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e221]:
+                                                            - listitem [ref=f13e222]:
+                                                                - link "Facebook" [ref=f13e223] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e224]
+                                                            - listitem [ref=f13e225]:
+                                                                - link "Twitter" [ref=f13e226] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e227]
+                                                            - listitem [ref=f13e228]:
+                                                                - link "LinkedIn" [ref=f13e229] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e230]
+                                            - img "DSC09354.jpg" [ref=f13e236]
+                                        - generic [ref=f13e241]:
+                                            - img "78435672_10217730456947033_459490908589522944_n.jpg" [ref=f13e247]
+                                            - generic [ref=f13e248]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Aldrich" [level=2] [ref=f13e252]
+                                                        - paragraph [ref=f13e254]:
+                                                            - generic [ref=f13e255]: Director
+                                                        - paragraph [ref=f13e256]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e257]: 123-456-7890
+                                                        - paragraph [ref=f13e260]:
+                                                            - link "info@mysite.com" [ref=f13e262] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e264]:
+                                                            - listitem [ref=f13e265]:
+                                                                - link "Facebook" [ref=f13e266] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e267]
+                                                            - listitem [ref=f13e268]:
+                                                                - link "Twitter" [ref=f13e269] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e270]
+                                                            - listitem [ref=f13e271]:
+                                                                - link "LinkedIn" [ref=f13e272] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e273]
+                                        - generic [ref=f13e280]:
+                                            - generic [ref=f13e281]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Our Guides" [level=2] [ref=f13e285]
+                                                        - paragraph [ref=f13e287]:
+                                                            - generic [ref=f13e288]: Experienced Leads
+                                                        - paragraph [ref=f13e289]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e290]: 123-456-7890
+                                                        - paragraph [ref=f13e293]:
+                                                            - link "info@mysite.com" [ref=f13e295] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e297]:
+                                                            - listitem [ref=f13e298]:
+                                                                - link "Facebook" [ref=f13e299] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e300]
+                                                            - listitem [ref=f13e301]:
+                                                                - link "Twitter" [ref=f13e302] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e303]
+                                                            - listitem [ref=f13e304]:
+                                                                - link "LinkedIn" [ref=f13e305] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e306]
+                                            - img "Red Carabao-7.jpg" [ref=f13e312]
+                            - generic [ref=f13e313]:
+                                - generic:
+                                    - generic:
+                                        - generic [ref=f13e321]:
+                                            - img "IMG_1152.JPG" [ref=f13e327]
+                                            - generic [ref=f13e328]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Hosts" [level=2] [ref=f13e332]
+                                                        - paragraph [ref=f13e334]:
+                                                            - generic [ref=f13e335]: Island Hosts
+                                                        - paragraph [ref=f13e336]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e337]: 123-456-7890
+                                                        - paragraph [ref=f13e340]:
+                                                            - link "info@mysite.com" [ref=f13e342] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e344]:
+                                                            - listitem [ref=f13e345]:
+                                                                - link "Facebook" [ref=f13e346] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e347]
+                                                            - listitem [ref=f13e348]:
+                                                                - link "Twitter" [ref=f13e349] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e350]
+                                                            - listitem [ref=f13e351]:
+                                                                - link "LinkedIn" [ref=f13e352] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e353]
+                                        - generic [ref=f13e358]:
+                                            - generic [ref=f13e359]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Volunteers" [level=2] [ref=f13e363]
+                                                        - paragraph [ref=f13e365]:
+                                                            - generic [ref=f13e366]: Licensed Boat Captain
+                                                        - paragraph [ref=f13e367]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e368]: 123-456-7890
+                                                        - paragraph [ref=f13e371]:
+                                                            - link "info@mysite.com" [ref=f13e373] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e375]:
+                                                            - listitem [ref=f13e376]:
+                                                                - link "Facebook" [ref=f13e377] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e378]
+                                                            - listitem [ref=f13e379]:
+                                                                - link "Twitter" [ref=f13e380] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e381]
+                                                            - listitem [ref=f13e382]:
+                                                                - link "LinkedIn" [ref=f13e383] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e384]
+                                            - img "IMG_1637.JPG" [ref=f13e390]
+                                        - generic [ref=f13e391]:
+                                            - img "IMG_2553.JPG" [ref=f13e396]
+                                            - generic [ref=f13e397]:
+                                                - img "IMG_2553.JPG" [ref=f13e403]
+                                                - generic [ref=f13e404]:
+                                                    - generic:
+                                                        - generic:
+                                                            - heading "Robert" [level=2] [ref=f13e408]
+                                                            - paragraph [ref=f13e410]:
+                                                                - generic [ref=f13e411]: Boat Crew
+                                                            - paragraph [ref=f13e412]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                            - paragraph [ref=f13e413]: 123-456-7890
+                                                            - paragraph [ref=f13e416]:
+                                                                - link "info@mysite.com" [ref=f13e418] [cursor=pointer]:
+                                                                    - /url: mailto:info@mysite.com
+                                                            - list "Social Bar" [ref=f13e420]:
+                                                                - listitem [ref=f13e421]:
+                                                                    - link "Facebook" [ref=f13e422] [cursor=pointer]:
+                                                                        - /url: https://www.facebook.com/wix
+                                                                        - img "Facebook" [ref=f13e423]
+                                                                - listitem [ref=f13e424]:
+                                                                    - link "Twitter" [ref=f13e425] [cursor=pointer]:
+                                                                        - /url: https://www.twitter.com/wix
+                                                                        - img "Twitter" [ref=f13e426]
+                                                                - listitem [ref=f13e427]:
+                                                                    - link "LinkedIn" [ref=f13e428] [cursor=pointer]:
+                                                                        - /url: https://www.linkedin.com/company/wix-com
+                                                                        - img "LinkedIn" [ref=f13e429]
+                                        - generic [ref=f13e436]:
+                                            - generic [ref=f13e437]:
+                                                - generic:
+                                                    - generic:
+                                                        - heading "Our Guides" [level=2] [ref=f13e441]
+                                                        - paragraph [ref=f13e443]:
+                                                            - generic [ref=f13e444]: Experienced Leads
+                                                        - paragraph [ref=f13e445]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
+                                                        - paragraph [ref=f13e446]: 123-456-7890
+                                                        - paragraph [ref=f13e449]:
+                                                            - link "info@mysite.com" [ref=f13e451] [cursor=pointer]:
+                                                                - /url: mailto:info@mysite.com
+                                                        - list "Social Bar" [ref=f13e453]:
+                                                            - listitem [ref=f13e454]:
+                                                                - link "Facebook" [ref=f13e455] [cursor=pointer]:
+                                                                    - /url: https://www.facebook.com/wix
+                                                                    - img "Facebook" [ref=f13e456]
+                                                            - listitem [ref=f13e457]:
+                                                                - link "Twitter" [ref=f13e458] [cursor=pointer]:
+                                                                    - /url: https://www.twitter.com/wix
+                                                                    - img "Twitter" [ref=f13e459]
+                                                            - listitem [ref=f13e460]:
+                                                                - link "LinkedIn" [ref=f13e461] [cursor=pointer]:
+                                                                    - /url: https://www.linkedin.com/company/wix-com
+                                                                    - img "LinkedIn" [ref=f13e462]
+                                            - img "Red Carabao-7.jpg" [ref=f13e468]
+                            - generic [ref=f13e477]:
+                                - generic [ref=f13e478]:
+                                    - generic:
+                                        - generic:
+                                            - heading "Join our team!" [level=2] [ref=f13e482]
+                                            - generic:
+                                                - paragraph [ref=f13e485]:
+                                                    - generic [ref=f13e486]: National Highway, Barangay V
+                                                - paragraph [ref=f13e488]:
+                                                    - generic [ref=f13e489]: Coron, Palawan 5316
+                                            - generic:
+                                                - paragraph [ref=f13e491]:
+                                                    - generic [ref=f13e492]: WhatsApp +639952350304
+                                                - paragraph [ref=f13e493]:
+                                                    - generic [ref=f13e494]: (Available 17:00-20:00 Philippine Time)
+                                            - paragraph [ref=f13e495]:
+                                                - link "info@redcarabao.com" [ref=f13e498] [cursor=pointer]:
+                                                    - /url: mailto:info@redcarabao.com
+                                            - list "Social Bar" [ref=f13e500]:
+                                                - listitem [ref=f13e501]:
+                                                    - link "Facebook" [ref=f13e502] [cursor=pointer]:
+                                                        - /url: https://www.facebook.com/wix
+                                                        - img "Facebook" [ref=f13e503]
+                                                - listitem [ref=f13e504]:
+                                                    - link "Twitter" [ref=f13e505] [cursor=pointer]:
+                                                        - /url: https://www.twitter.com/wix
+                                                        - img "Twitter" [ref=f13e506]
+                                                - listitem [ref=f13e507]:
+                                                    - link "LinkedIn" [ref=f13e508] [cursor=pointer]:
+                                                        - /url: https://www.linkedin.com/company/wix-com
+                                                        - img "LinkedIn" [ref=f13e509]
+                                                - listitem [ref=f13e510]:
+                                                    - link "Instagram" [ref=f13e511] [cursor=pointer]:
+                                                        - /url: https://www.instagram.com/wix
+                                                        - img "Instagram" [ref=f13e512]
+                                - generic [ref=f13e518]:
+                                    - generic:
+                                        - generic:
+                                            - generic [ref=f13e519]:
+                                                - generic [ref=f13e520]: First Name
+                                                - textbox "First Name" [ref=f13e522]:
+                                                    - /placeholder: ''
+                                            - generic [ref=f13e523]:
+                                                - generic [ref=f13e524]: Last Name
+                                                - textbox "Last Name" [ref=f13e526]:
+                                                    - /placeholder: ''
+                                            - generic [ref=f13e527]:
+                                                - generic [ref=f13e528]: Email *
+                                                - textbox "Email *" [ref=f13e530]:
+                                                    - /placeholder: ''
+                                            - generic [ref=f13e531]:
+                                                - generic [ref=f13e532]: Message
+                                                - textbox "Message" [ref=f13e533]:
+                                                    - /placeholder: ''
+                                            - button "Send" [ref=f13e535] [cursor=pointer]
+        - contentinfo [ref=f13e537]:
+            - generic [ref=f13e543]:
                 - generic:
-                  - generic:
-                    - heading "The Team" [level=1] [ref=f13e157]
-                    - paragraph [ref=f13e158]: Who We Are
-              - generic [ref=f13e159]:
-                - generic:
-                  - generic:
-                    - generic [ref=f13e167]:
-                      - img "Sam Tag 17.jpg" [ref=f13e173]
-                      - generic [ref=f13e174]:
-                        - generic:
-                          - generic:
-                            - heading "Tagbanua Family" [level=2] [ref=f13e178]
-                            - paragraph [ref=f13e180]:
-                              - generic [ref=f13e181]: Island Hosts
-                            - paragraph [ref=f13e182]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e183]: 123-456-7890
-                            - paragraph [ref=f13e186]:
-                              - link "info@mysite.com" [ref=f13e188] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e190]:
-                              - listitem [ref=f13e191]:
-                                - link "Facebook" [ref=f13e192] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e193]
-                              - listitem [ref=f13e194]:
-                                - link "Twitter" [ref=f13e195] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e196]
-                              - listitem [ref=f13e197]:
-                                - link "LinkedIn" [ref=f13e198] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e199]
-                    - generic [ref=f13e204]:
-                      - generic [ref=f13e205]:
-                        - generic:
-                          - generic:
-                            - heading "Captain Benjie" [level=2] [ref=f13e209]
-                            - paragraph [ref=f13e211]:
-                              - generic [ref=f13e212]: Licensed Boat Captain
-                            - paragraph [ref=f13e213]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e214]: 123-456-7890
-                            - paragraph [ref=f13e217]:
-                              - link "info@mysite.com" [ref=f13e219] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e221]:
-                              - listitem [ref=f13e222]:
-                                - link "Facebook" [ref=f13e223] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e224]
-                              - listitem [ref=f13e225]:
-                                - link "Twitter" [ref=f13e226] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e227]
-                              - listitem [ref=f13e228]:
-                                - link "LinkedIn" [ref=f13e229] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e230]
-                      - img "DSC09354.jpg" [ref=f13e236]
-                    - generic [ref=f13e241]:
-                      - img "78435672_10217730456947033_459490908589522944_n.jpg" [ref=f13e247]
-                      - generic [ref=f13e248]:
-                        - generic:
-                          - generic:
-                            - heading "Aldrich" [level=2] [ref=f13e252]
-                            - paragraph [ref=f13e254]:
-                              - generic [ref=f13e255]: Director
-                            - paragraph [ref=f13e256]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e257]: 123-456-7890
-                            - paragraph [ref=f13e260]:
-                              - link "info@mysite.com" [ref=f13e262] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e264]:
-                              - listitem [ref=f13e265]:
-                                - link "Facebook" [ref=f13e266] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e267]
-                              - listitem [ref=f13e268]:
-                                - link "Twitter" [ref=f13e269] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e270]
-                              - listitem [ref=f13e271]:
-                                - link "LinkedIn" [ref=f13e272] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e273]
-                    - generic [ref=f13e280]:
-                      - generic [ref=f13e281]:
-                        - generic:
-                          - generic:
-                            - heading "Our Guides" [level=2] [ref=f13e285]
-                            - paragraph [ref=f13e287]:
-                              - generic [ref=f13e288]: Experienced Leads
-                            - paragraph [ref=f13e289]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e290]: 123-456-7890
-                            - paragraph [ref=f13e293]:
-                              - link "info@mysite.com" [ref=f13e295] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e297]:
-                              - listitem [ref=f13e298]:
-                                - link "Facebook" [ref=f13e299] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e300]
-                              - listitem [ref=f13e301]:
-                                - link "Twitter" [ref=f13e302] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e303]
-                              - listitem [ref=f13e304]:
-                                - link "LinkedIn" [ref=f13e305] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e306]
-                      - img "Red Carabao-7.jpg" [ref=f13e312]
-              - generic [ref=f13e313]:
-                - generic:
-                  - generic:
-                    - generic [ref=f13e321]:
-                      - img "IMG_1152.JPG" [ref=f13e327]
-                      - generic [ref=f13e328]:
-                        - generic:
-                          - generic:
-                            - heading "Hosts" [level=2] [ref=f13e332]
-                            - paragraph [ref=f13e334]:
-                              - generic [ref=f13e335]: Island Hosts
-                            - paragraph [ref=f13e336]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e337]: 123-456-7890
-                            - paragraph [ref=f13e340]:
-                              - link "info@mysite.com" [ref=f13e342] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e344]:
-                              - listitem [ref=f13e345]:
-                                - link "Facebook" [ref=f13e346] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e347]
-                              - listitem [ref=f13e348]:
-                                - link "Twitter" [ref=f13e349] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e350]
-                              - listitem [ref=f13e351]:
-                                - link "LinkedIn" [ref=f13e352] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e353]
-                    - generic [ref=f13e358]:
-                      - generic [ref=f13e359]:
-                        - generic:
-                          - generic:
-                            - heading "Volunteers" [level=2] [ref=f13e363]
-                            - paragraph [ref=f13e365]:
-                              - generic [ref=f13e366]: Licensed Boat Captain
-                            - paragraph [ref=f13e367]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e368]: 123-456-7890
-                            - paragraph [ref=f13e371]:
-                              - link "info@mysite.com" [ref=f13e373] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e375]:
-                              - listitem [ref=f13e376]:
-                                - link "Facebook" [ref=f13e377] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e378]
-                              - listitem [ref=f13e379]:
-                                - link "Twitter" [ref=f13e380] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e381]
-                              - listitem [ref=f13e382]:
-                                - link "LinkedIn" [ref=f13e383] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e384]
-                      - img "IMG_1637.JPG" [ref=f13e390]
-                    - generic [ref=f13e391]:
-                      - img "IMG_2553.JPG" [ref=f13e396]
-                      - generic [ref=f13e397]:
-                        - img "IMG_2553.JPG" [ref=f13e403]
-                        - generic [ref=f13e404]:
-                          - generic:
+                    - generic:
+                        - generic [ref=f13e549]:
+                            - img "Gemini_Generated_Image_6usrqm6usrqm6usr 1.png" [ref=f13e554]
                             - generic:
-                              - heading "Robert" [level=2] [ref=f13e408]
-                              - paragraph [ref=f13e410]:
-                                - generic [ref=f13e411]: Boat Crew
-                              - paragraph [ref=f13e412]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                              - paragraph [ref=f13e413]: 123-456-7890
-                              - paragraph [ref=f13e416]:
-                                - link "info@mysite.com" [ref=f13e418] [cursor=pointer]:
-                                  - /url: mailto:info@mysite.com
-                              - list "Social Bar" [ref=f13e420]:
-                                - listitem [ref=f13e421]:
-                                  - link "Facebook" [ref=f13e422] [cursor=pointer]:
-                                    - /url: https://www.facebook.com/wix
-                                    - img "Facebook" [ref=f13e423]
-                                - listitem [ref=f13e424]:
-                                  - link "Twitter" [ref=f13e425] [cursor=pointer]:
-                                    - /url: https://www.twitter.com/wix
-                                    - img "Twitter" [ref=f13e426]
-                                - listitem [ref=f13e427]:
-                                  - link "LinkedIn" [ref=f13e428] [cursor=pointer]:
-                                    - /url: https://www.linkedin.com/company/wix-com
-                                    - img "LinkedIn" [ref=f13e429]
-                    - generic [ref=f13e436]:
-                      - generic [ref=f13e437]:
-                        - generic:
-                          - generic:
-                            - heading "Our Guides" [level=2] [ref=f13e441]
-                            - paragraph [ref=f13e443]:
-                              - generic [ref=f13e444]: Experienced Leads
-                            - paragraph [ref=f13e445]: Write a bio for each team member. Make it short and informative to keep your visitors engaged.
-                            - paragraph [ref=f13e446]: 123-456-7890
-                            - paragraph [ref=f13e449]:
-                              - link "info@mysite.com" [ref=f13e451] [cursor=pointer]:
-                                - /url: mailto:info@mysite.com
-                            - list "Social Bar" [ref=f13e453]:
-                              - listitem [ref=f13e454]:
-                                - link "Facebook" [ref=f13e455] [cursor=pointer]:
-                                  - /url: https://www.facebook.com/wix
-                                  - img "Facebook" [ref=f13e456]
-                              - listitem [ref=f13e457]:
-                                - link "Twitter" [ref=f13e458] [cursor=pointer]:
-                                  - /url: https://www.twitter.com/wix
-                                  - img "Twitter" [ref=f13e459]
-                              - listitem [ref=f13e460]:
-                                - link "LinkedIn" [ref=f13e461] [cursor=pointer]:
-                                  - /url: https://www.linkedin.com/company/wix-com
-                                  - img "LinkedIn" [ref=f13e462]
-                      - img "Red Carabao-7.jpg" [ref=f13e468]
-              - generic [ref=f13e477]:
-                - generic [ref=f13e478]:
-                  - generic:
-                    - generic:
-                      - heading "Join our team!" [level=2] [ref=f13e482]
-                      - generic:
-                        - paragraph [ref=f13e485]:
-                          - generic [ref=f13e486]: National Highway, Barangay V
-                        - paragraph [ref=f13e488]:
-                          - generic [ref=f13e489]: Coron, Palawan 5316
-                      - generic:
-                        - paragraph [ref=f13e491]:
-                          - generic [ref=f13e492]: WhatsApp +639952350304
-                        - paragraph [ref=f13e493]:
-                          - generic [ref=f13e494]: (Available 17:00-20:00 Philippine Time)
-                      - paragraph [ref=f13e495]:
-                        - link "info@redcarabao.com" [ref=f13e498] [cursor=pointer]:
-                          - /url: mailto:info@redcarabao.com
-                      - list "Social Bar" [ref=f13e500]:
-                        - listitem [ref=f13e501]:
-                          - link "Facebook" [ref=f13e502] [cursor=pointer]:
-                            - /url: https://www.facebook.com/wix
-                            - img "Facebook" [ref=f13e503]
-                        - listitem [ref=f13e504]:
-                          - link "Twitter" [ref=f13e505] [cursor=pointer]:
-                            - /url: https://www.twitter.com/wix
-                            - img "Twitter" [ref=f13e506]
-                        - listitem [ref=f13e507]:
-                          - link "LinkedIn" [ref=f13e508] [cursor=pointer]:
-                            - /url: https://www.linkedin.com/company/wix-com
-                            - img "LinkedIn" [ref=f13e509]
-                        - listitem [ref=f13e510]:
-                          - link "Instagram" [ref=f13e511] [cursor=pointer]:
-                            - /url: https://www.instagram.com/wix
-                            - img "Instagram" [ref=f13e512]
-                - generic [ref=f13e518]:
-                  - generic:
-                    - generic:
-                      - generic [ref=f13e519]:
-                        - generic [ref=f13e520]: First Name
-                        - textbox "First Name" [ref=f13e522]:
-                          - /placeholder: ""
-                      - generic [ref=f13e523]:
-                        - generic [ref=f13e524]: Last Name
-                        - textbox "Last Name" [ref=f13e526]:
-                          - /placeholder: ""
-                      - generic [ref=f13e527]:
-                        - generic [ref=f13e528]: Email *
-                        - textbox "Email *" [ref=f13e530]:
-                          - /placeholder: ""
-                      - generic [ref=f13e531]:
-                        - generic [ref=f13e532]: Message
-                        - textbox "Message" [ref=f13e533]:
-                          - /placeholder: ""
-                      - button "Send" [ref=f13e535] [cursor=pointer]
-    - contentinfo [ref=f13e537]:
-      - generic [ref=f13e543]:
-        - generic:
-          - generic:
-            - generic [ref=f13e549]:
-              - img "Gemini_Generated_Image_6usrqm6usrqm6usr 1.png" [ref=f13e554]
-              - generic:
-                - generic:
-                  - heading "GET IN TOUCH" [level=5] [ref=f13e555]
-                  - generic:
-                    - paragraph [ref=f13e557]:
-                      - generic [ref=f13e558]: "We are online:"
-                    - paragraph [ref=f13e560]:
-                      - generic [ref=f13e561]: MON, WED, FRI | 17:00 to 20:00 PHILIPPINE TIME
-                    - paragraph [ref=f13e564]
-                  - generic:
-                    - paragraph [ref=f13e565]:
-                      - generic [ref=f13e568]:
-                        - text: "Email:"
-                        - link "info@redcarabao.com" [ref=f13e569] [cursor=pointer]:
-                          - /url: mailto:info@redcarabao.com
-                    - paragraph [ref=f13e570]:
-                      - generic [ref=f13e571]: "WhatsApp: (+63) 9952350304"
-                    - paragraph [ref=f13e573]
-                    - paragraph [ref=f13e574]
-                    - paragraph [ref=f13e575]
-            - generic [ref=f13e581]:
-              - generic:
-                - generic:
-                  - paragraph [ref=f13e585]:
-                    - generic [ref=f13e586]: © 2025 Red Carabao Philippines, Inc.
-                  - paragraph [ref=f13e588]:
-                    - link "Terms & Conditions" [ref=f13e592] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com/travel-guide
-                  - paragraph [ref=f13e593]: "|"
-                  - paragraph [ref=f13e594]:
-                    - link "Privacy Policy" [ref=f13e598] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com/copy-of-terms-conditions
-                  - paragraph [ref=f13e599]: "|"
-                  - paragraph [ref=f13e600]:
-                    - link "Accessibility Statement" [ref=f13e604] [cursor=pointer]:
-                      - /url: https://www.redcarabao.com/accessibility-statement
-  - region "bottom of page"
+                                - generic:
+                                    - heading "GET IN TOUCH" [level=5] [ref=f13e555]
+                                    - generic:
+                                        - paragraph [ref=f13e557]:
+                                            - generic [ref=f13e558]: 'We are online:'
+                                        - paragraph [ref=f13e560]:
+                                            - generic [ref=f13e561]: MON, WED, FRI | 17:00 to 20:00 PHILIPPINE TIME
+                                        - paragraph [ref=f13e564]
+                                    - generic:
+                                        - paragraph [ref=f13e565]:
+                                            - generic [ref=f13e568]:
+                                                - text: 'Email:'
+                                                - link "info@redcarabao.com" [ref=f13e569] [cursor=pointer]:
+                                                    - /url: mailto:info@redcarabao.com
+                                        - paragraph [ref=f13e570]:
+                                            - generic [ref=f13e571]: 'WhatsApp: (+63) 9952350304'
+                                        - paragraph [ref=f13e573]
+                                        - paragraph [ref=f13e574]
+                                        - paragraph [ref=f13e575]
+                        - generic [ref=f13e581]:
+                            - generic:
+                                - generic:
+                                    - paragraph [ref=f13e585]:
+                                        - generic [ref=f13e586]: © 2025 Red Carabao Philippines, Inc.
+                                    - paragraph [ref=f13e588]:
+                                        - link "Terms & Conditions" [ref=f13e592] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com/travel-guide
+                                    - paragraph [ref=f13e593]: '|'
+                                    - paragraph [ref=f13e594]:
+                                        - link "Privacy Policy" [ref=f13e598] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com/copy-of-terms-conditions
+                                    - paragraph [ref=f13e599]: '|'
+                                    - paragraph [ref=f13e600]:
+                                        - link "Accessibility Statement" [ref=f13e604] [cursor=pointer]:
+                                            - /url: https://www.redcarabao.com/accessibility-statement
+    - region "bottom of page"

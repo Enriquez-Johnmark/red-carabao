@@ -24,6 +24,8 @@ This is the repository's always-on Codex instruction file. Follow these rules fo
 ## Stack and UI
 
 - Build with React, TypeScript, Tailwind CSS v4, and shadcn/ui.
+- Keep `src/styles.css` limited to Tailwind/shadcn imports, semantic tokens, and global base/accessibility behavior. Put shared shell styling beside `src/components/site/` and page styling beside its owning feature; do not add route selectors back to the global entry stylesheet.
+- Preserve CSS ownership: a feature may style only its own markup, and shared site styles must not import features. Prefer a new feature-local stylesheet over extending an unrelated page stylesheet.
 - Use semantic Tailwind tokens (`bg-background`, `text-foreground`, `bg-primary`) and component variants; do not use raw palette utilities for product UI. Put Tailwind v4 tokens in the global CSS `@theme` layer.
 - Use `gap-*`, `size-*`, `cn()`, visible focus states, and reduced-motion-safe animation.
 - Match Red Carabao's editorial travel identity; avoid generic SaaS visual patterns.

@@ -33,14 +33,14 @@ npm run build
 
 ## Skill provenance
 
-| Skill | Source or ownership |
-| --- | --- |
-| `bulletproof-react` | Red Carabao project architecture adaptation based on [Bulletproof React](https://github.com/alan2207/bulletproof-react) |
-| `frontend-design` | [Anthropic frontend-design skill](https://www.skills.sh/anthropics/skills/frontend-design) |
-| `vercel-react-best-practices` | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) |
-| `vercel-composition-patterns` | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/vercel-composition-patterns) |
-| `web-design-guidelines` | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) |
-| `shadcn` | [shadcn/ui skill](https://www.skills.sh/shadcn/ui/shadcn) |
-| `tailwind-design-system` | [Tailwind design-system skill](https://www.skills.sh/wshobson/agents/tailwind-design-system) |
-| `brainstorming` | [Superpowers brainstorming skill](https://www.skills.sh/obra/superpowers/brainstorming) |
-| `impeccable` | [Impeccable](https://impeccable.style/) project skill |
+| Skill                         | Source or ownership                                                                                                     |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `bulletproof-react`           | Red Carabao project architecture adaptation based on [Bulletproof React](https://github.com/alan2207/bulletproof-react) |
+| `frontend-design`             | [Anthropic frontend-design skill](https://www.skills.sh/anthropics/skills/frontend-design)                              |
+| `vercel-react-best-practices` | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices)                  |
+| `vercel-composition-patterns` | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/vercel-composition-patterns)                  |
+| `web-design-guidelines`       | [Vercel Labs agent skills](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines)                        |
+| `shadcn`                      | [shadcn/ui skill](https://www.skills.sh/shadcn/ui/shadcn)                                                               |
+| `tailwind-design-system`      | [Tailwind design-system skill](https://www.skills.sh/wshobson/agents/tailwind-design-system)                            |
+| `brainstorming`               | [Superpowers brainstorming skill](https://www.skills.sh/obra/superpowers/brainstorming)                                 |
+| `impeccable`                  | [Impeccable](https://impeccable.style/) project skill                                                                   |

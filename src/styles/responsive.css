@@ -1,0 +1,189 @@
+@media (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+  .site-header {
+    height: 76px;
+    padding: 0 22px;
+  }
+  .site-header-scrolled .site-header {
+    height: 64px;
+  }
+  .brand img {
+    width: 54px;
+    height: 54px;
+  }
+  .site-header-scrolled .brand img {
+    width: 46px;
+    height: 46px;
+  }
+  .desktop-nav,
+  .header-book {
+    display: none;
+  }
+  .mobile-toggle {
+    display: inline-flex;
+  }
+  .cinematic-hero {
+    min-height: max(760px, 100svh);
+  }
+  .cinematic-shade {
+    background: linear-gradient(180deg, rgba(5, 29, 25, 0.2), rgba(5, 29, 25, 0.83));
+  }
+  .cinematic-content {
+    margin-left: 22px;
+    padding: 180px 22px 74px 0;
+  }
+  .cinematic-content h1 {
+    font-size: clamp(5.2rem, 22vw, 7rem);
+  }
+  .hero-copy {
+    font-size: 16px;
+  }
+  .hero-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .cinematic-meta {
+    right: 22px;
+    bottom: 22px;
+  }
+  .page-section {
+    padding: 82px 22px;
+  }
+  .introduction-grid,
+  .purpose-grid,
+  .faq-section {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .introduction-grid h2,
+  .gallery-heading h2,
+  .rice-copy h2,
+  .faq-section h2,
+  .expedition-intro h2,
+  .camp-copy h2,
+  .destination-closing h2,
+  .about-hero-cinematic h1,
+  .purpose-grid h2,
+  .hosts-section h2,
+  .rice-about-section h2,
+  .contact-section h2 {
+    font-size: clamp(3.2rem, 14vw, 4.8rem);
+  }
+  .signature-section,
+  .rice-section,
+  .day-section,
+  .destination-closing,
+  .hosts-section,
+  .rice-about-section {
+    grid-template-columns: 1fr;
+  }
+  .signature-media {
+    min-height: 360px;
+  }
+  .signature-copy {
+    padding: 78px 22px;
+  }
+  .press-marks {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+  .gallery-section {
+    padding: 82px 22px;
+  }
+  .island-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-item {
+    min-height: 250px;
+  }
+  .gallery-item:nth-child(2) {
+    margin-top: 44px;
+  }
+  .gallery-item:nth-child(3) {
+    grid-column: 1/-1;
+    min-height: 320px;
+  }
+  .rice-copy {
+    padding: 78px 22px;
+  }
+  .faq-section {
+    gap: 38px;
+  }
+  .home-application {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: calc(100% - 44px);
+    margin-bottom: 56px;
+  }
+  .home-application > div {
+    margin-right: 0;
+  }
+  .expedition-hero {
+    min-height: calc(100svh - 76px);
+  }
+  .expedition-hero-copy {
+    margin-left: 22px;
+    padding: 170px 22px 72px 0;
+  }
+  .expedition-hero h1 {
+    font-size: clamp(5rem, 21vw, 7rem);
+  }
+  .day-image img {
+    min-height: 340px;
+  }
+  .day-copy {
+    padding: 78px 22px;
+  }
+  .camp-section {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .camp-section > img {
+    min-height: 360px;
+  }
+  .destination-closing > div {
+    padding: 78px 22px;
+  }
+  .about-hero-cinematic {
+    grid-template-columns: 1fr;
+    gap: 42px;
+    padding: 118px 22px 82px;
+  }
+  .about-hero-cinematic img {
+    max-height: 500px;
+  }
+  .purpose-section {
+    padding: 82px 22px;
+  }
+  .hosts-section > div {
+    padding: 78px 22px;
+  }
+  .rice-about-section {
+    padding: 82px 22px;
+  }
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .contact-section address {
+    padding-top: 0;
+  }
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .footer-main .cta-button {
+    width: 100%;
+  }
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer-contact {
+    gap: 11px;
+  }
+}

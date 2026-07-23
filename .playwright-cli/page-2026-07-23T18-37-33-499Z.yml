@@ -1,0 +1,46 @@
+- generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: '#content'
+    - banner [ref=e5]:
+        - generic [ref=e6]:
+            - link "Red Carabao home" [ref=e7] [cursor=pointer]:
+                - /url: /
+                - img "Red Carabao" [ref=e8]
+            - navigation "Main navigation" [ref=e9]:
+                - link "Home" [ref=e10] [cursor=pointer]:
+                    - /url: /
+                - link "Island Crash" [ref=e11] [cursor=pointer]:
+                    - /url: /island-crash
+                - link "About Us" [ref=e12] [cursor=pointer]:
+                    - /url: /about-us
+                - link "Our Team" [ref=e13] [cursor=pointer]:
+                    - /url: /our-team
+            - button "Apply for an expedition" [ref=e15] [cursor=pointer]
+    - contentinfo [ref=e16]:
+        - generic [ref=e17]:
+            - generic [ref=e18]:
+                - link "Red Carabao home" [ref=e19] [cursor=pointer]:
+                    - /url: /
+                    - img "Red Carabao" [ref=e20]
+                - paragraph [ref=e21]: Travel with purpose. Leave a positive footprint.
+            - generic [ref=e22]:
+                - link "info@redcarabao.com" [ref=e23] [cursor=pointer]:
+                    - /url: mailto:info@redcarabao.com
+                - link "+63 995 235 0304" [ref=e27] [cursor=pointer]:
+                    - /url: https://wa.me/639952350304
+                - link "Instagram" [ref=e30] [cursor=pointer]:
+                    - /url: https://instagram.com/redcarabao
+            - button "Apply for an expedition" [ref=e34] [cursor=pointer]
+        - separator [ref=e35]
+        - generic [ref=e36]:
+            - generic [ref=e37]: © 2026 Red Carabao Philippines, Inc.
+            - generic [ref=e38]:
+                - link "Terms & Conditions" [ref=e39] [cursor=pointer]:
+                    - /url: https://www.redcarabao.com/travel-guide
+                - text: ·
+                - link "Privacy Policy" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.redcarabao.com/copy-of-terms-conditions
+                - text: ·
+                - link "Contact" [ref=e41] [cursor=pointer]:
+                    - /url: /about-us
+    - region "Notifications alt+T"

@@ -6,7 +6,14 @@ import { describe, expect, it, vi } from 'vitest'
 import { LandingPage } from './landing-page'
 
 describe('LandingPage', () => {
-  const renderLanding = () => render(<MemoryRouter><SiteLayout><LandingPage /></SiteLayout></MemoryRouter>)
+  const renderLanding = () =>
+    render(
+      <MemoryRouter>
+        <SiteLayout>
+          <LandingPage />
+        </SiteLayout>
+      </MemoryRouter>,
+    )
 
   it('renders the verified Island Crash and Rice Mission content', () => {
     renderLanding()

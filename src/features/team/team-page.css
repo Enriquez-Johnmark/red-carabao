@@ -1,0 +1,352 @@
+.team-page {
+  background: var(--sand);
+}
+.team-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 0.8fr);
+  gap: clamp(44px, 10vw, 150px);
+  align-items: end;
+  width: min(1280px, 100%);
+  margin: auto;
+  padding: clamp(116px, 13vw, 190px) clamp(24px, 5vw, 72px) clamp(92px, 10vw, 145px);
+}
+.team-hero h1,
+.team-introduction h2,
+.team-roster-heading h2,
+.team-join h2 {
+  margin: 0;
+  font: 600 clamp(4.2rem, 8vw, 8rem)/0.79 var(--font-heading);
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+.team-hero h1 em,
+.team-introduction h2 em,
+.team-roster-heading h2 em,
+.team-join h2 em {
+  color: var(--coral);
+  font-family: var(--font-accent);
+  font-size: 0.68em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.team-hero > div > p:not(.route-label) {
+  max-width: 38ch;
+  margin: 30px 0 0;
+  color: var(--muted-ink);
+}
+.team-hero figure {
+  position: relative;
+  margin: 0;
+}
+.team-hero img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 52% 16px 16px 16px;
+}
+.team-hero figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 28px;
+  max-width: 230px;
+  padding: 13px 18px;
+  border-radius: 8px 0 0 8px;
+  background: var(--coral);
+  color: var(--paper);
+  font: 400 20px/1 var(--font-accent);
+}
+.team-introduction {
+  padding-top: 0;
+}
+.team-introduction h2 {
+  max-width: 11ch;
+}
+.team-introduction h2 em {
+  color: var(--sun);
+}
+.team-roster {
+  padding: clamp(92px, 10vw, 150px) clamp(24px, 5vw, 72px);
+  background: var(--tide);
+  color: var(--paper);
+}
+.team-roster-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 0.72fr);
+  column-gap: clamp(44px, 10vw, 160px);
+  width: min(1136px, 100%);
+  margin: 0 auto clamp(58px, 8vw, 105px);
+}
+.team-roster-heading .route-label {
+  grid-column: 1/-1;
+  color: var(--sun);
+}
+.team-roster-heading h2 {
+  max-width: 9ch;
+}
+.team-roster-heading h2 em {
+  color: var(--sun);
+}
+.team-roster-heading > p:last-child {
+  align-self: end;
+  max-width: 34ch;
+  margin: 0;
+  color: var(--seafoam);
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(36px, 6vw, 84px) 24px;
+  width: min(1280px, 100%);
+  margin: auto;
+}
+.team-member {
+  grid-column: span 5;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+.team-member:nth-child(3n + 2) {
+  grid-column: 7 / span 6;
+  margin-top: clamp(48px, 8vw, 126px);
+}
+.team-member:nth-child(3n) {
+  grid-column: 2 / span 5;
+}
+.team-member figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--lagoon);
+}
+.team-member img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+.team-member:hover img {
+  transform: scale(1.035);
+}
+.team-member > div {
+  padding-right: clamp(0px, 2vw, 24px);
+}
+.team-role {
+  margin: 0 0 7px;
+  color: var(--sun);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.team-member h3 {
+  margin: 0;
+  color: var(--paper);
+  font: 600 clamp(2.3rem, 3.8vw, 4.2rem)/0.82 var(--font-heading);
+  letter-spacing: -0.035em;
+}
+.team-member h3 + p {
+  max-width: 31ch;
+  margin: 12px 0 0;
+  color: var(--seafoam);
+  font-size: 15px;
+}
+.team-join {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.7fr);
+  column-gap: clamp(46px, 10vw, 150px);
+  row-gap: 42px;
+}
+.team-join h2 {
+  max-width: 11ch;
+}
+.team-join h2 em {
+  color: var(--coral);
+}
+.team-join-copy > p:not(.route-label) {
+  max-width: 35ch;
+  color: var(--muted-ink);
+}
+.team-join-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+.team-join address {
+  display: grid;
+  align-content: start;
+  gap: 19px;
+  padding-top: 20px;
+  color: var(--ink);
+  font-size: 16px;
+  font-style: normal;
+}
+.team-join address > div,
+.team-join address > a {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  color: inherit;
+}
+.team-join address svg {
+  flex: none;
+  width: 19px;
+  margin-top: 3px;
+  color: var(--coral);
+}
+.team-join address > a {
+  align-items: center;
+  text-decoration: none;
+}
+.team-join address > a:hover {
+  color: var(--coral);
+}
+.team-join address > a svg:last-child {
+  width: 15px;
+  margin-left: auto;
+}
+.team-join [data-slot='separator'] {
+  grid-column: 1/-1;
+}
+@media (max-width: 800px) {
+  .team-hero {
+    grid-template-columns: 1fr;
+    gap: 46px;
+    padding: 118px 22px 82px;
+  }
+  .team-hero h1,
+  .team-introduction h2,
+  .team-roster-heading h2,
+  .team-join h2 {
+    font-size: clamp(3.6rem, 15vw, 5.3rem);
+  }
+  .team-hero img {
+    max-height: 480px;
+  }
+  .team-hero figcaption {
+    bottom: 20px;
+    font-size: 18px;
+  }
+  .team-introduction {
+    padding-top: 0;
+  }
+  .team-roster {
+    padding: 82px 22px;
+  }
+  .team-roster-heading {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    margin-bottom: 58px;
+  }
+  .team-roster-heading > p:last-child {
+    max-width: 38ch;
+  }
+  .team-members {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 54px;
+  }
+  .team-member,
+  .team-member:nth-child(3n + 2),
+  .team-member:nth-child(3n) {
+    grid-column: auto;
+    margin-top: 0;
+  }
+  .team-member:nth-child(even) {
+    margin-left: 12%;
+  }
+  .team-member img {
+    aspect-ratio: 1/1.08;
+  }
+  .team-member h3 {
+    font-size: clamp(2.7rem, 12vw, 3.8rem);
+  }
+  .team-join {
+    grid-template-columns: 1fr;
+    gap: 31px;
+  }
+  .team-join address {
+    padding-top: 0;
+  }
+  .team-join-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .team-join-actions [data-slot='button'] {
+    width: 100%;
+  }
+}
+.team-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 10px 17px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 750;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.team-action svg {
+  width: 17px;
+  height: 17px;
+}
+.team-action-primary {
+  background: var(--coral);
+  color: var(--paper);
+  box-shadow: 0 10px 18px rgba(159, 47, 51, 0.18);
+}
+.team-action-primary:hover {
+  background: var(--coral-hover);
+  color: var(--paper);
+}
+.team-action-secondary {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+.team-action-secondary:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+.team-action:focus-visible {
+  outline: 3px solid var(--sun);
+  outline-offset: 3px;
+}
+@media (min-width: 801px) {
+  .team-members {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 78px clamp(32px, 7vw, 112px);
+  }
+  .team-member,
+  .team-member:nth-child(3n + 2),
+  .team-member:nth-child(3n) {
+    grid-column: auto;
+    margin-top: 0;
+  }
+  .team-member:nth-child(even) {
+    margin-top: 110px;
+  }
+  .team-member:nth-child(7) {
+    grid-column: 1;
+  }
+}
+@media (max-width: 800px) {
+  .team-action {
+    width: 100%;
+  }
+}
+@media (min-width: 801px) {
+  .desktop-nav a {
+    font-size: 16px;
+  }
+}
+/* The header gets a single, compositor-friendly entrance only after it becomes fixed. */

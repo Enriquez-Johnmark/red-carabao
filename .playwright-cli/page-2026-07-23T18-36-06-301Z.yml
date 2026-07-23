@@ -1,0 +1,37 @@
+- generic [ref=f1e3]:
+    - link "Skip to content" [ref=f1e4] [cursor=pointer]:
+        - /url: '#content'
+    - banner [ref=f1e5]:
+        - generic [ref=f1e6]:
+            - link "Red Carabao home" [ref=f1e7] [cursor=pointer]:
+                - /url: /
+                - img "Red Carabao" [ref=f1e8]
+            - button "Open navigation" [ref=f1e9] [cursor=pointer]
+    - contentinfo [ref=f1e10]:
+        - generic [ref=f1e11]:
+            - generic [ref=f1e12]:
+                - link "Red Carabao home" [ref=f1e13] [cursor=pointer]:
+                    - /url: /
+                    - img "Red Carabao" [ref=f1e14]
+                - paragraph [ref=f1e15]: Travel with purpose. Leave a positive footprint.
+            - generic [ref=f1e16]:
+                - link "info@redcarabao.com" [ref=f1e17] [cursor=pointer]:
+                    - /url: mailto:info@redcarabao.com
+                - link "+63 995 235 0304" [ref=f1e21] [cursor=pointer]:
+                    - /url: https://wa.me/639952350304
+                - link "Instagram" [ref=f1e24] [cursor=pointer]:
+                    - /url: https://instagram.com/redcarabao
+            - button "Apply for an expedition" [ref=f1e28] [cursor=pointer]
+        - separator [ref=f1e29]
+        - generic [ref=f1e30]:
+            - generic [ref=f1e31]: © 2026 Red Carabao Philippines, Inc.
+            - generic [ref=f1e32]:
+                - link "Terms & Conditions" [ref=f1e33] [cursor=pointer]:
+                    - /url: https://www.redcarabao.com/travel-guide
+                - text: ·
+                - link "Privacy Policy" [ref=f1e34] [cursor=pointer]:
+                    - /url: https://www.redcarabao.com/copy-of-terms-conditions
+                - text: ·
+                - link "Contact" [ref=f1e35] [cursor=pointer]:
+                    - /url: /about-us
+    - region "Notifications alt+T"

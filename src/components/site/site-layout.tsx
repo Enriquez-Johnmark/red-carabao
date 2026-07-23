@@ -6,10 +6,23 @@ import { SiteHeader } from './site-header'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
-  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
   return null
 }
 
 export function SiteLayout({ children }: { children: ReactNode }) {
-  return <div className="site-shell"><ScrollToTop /><a className="skip-link" href="#content">Skip to content</a><SiteHeader />{children}<SiteFooter /><Toaster /></div>
+  return (
+    <div className="site-shell">
+      <ScrollToTop />
+      <a className="skip-link" href="#content">
+        Skip to content
+      </a>
+      <SiteHeader />
+      {children}
+      <SiteFooter />
+      <Toaster />
+    </div>
+  )
 }
