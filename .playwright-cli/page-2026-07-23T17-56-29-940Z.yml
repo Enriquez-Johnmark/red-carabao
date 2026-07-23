@@ -1,0 +1,137 @@
+- generic [ref=f3e3]:
+  - link "Skip to content" [ref=f3e4] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f3e5]:
+    - generic [ref=f3e6]:
+      - link "Red Carabao home" [ref=f3e7] [cursor=pointer]:
+        - /url: /
+        - img "Red Carabao" [ref=f3e8]
+      - button "Open navigation" [ref=f3e9] [cursor=pointer]
+  - main [ref=f3e10]:
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]:
+        - paragraph [ref=f3e13]: The Red Carabao circle
+        - heading [level=1] [ref=f3e14]:
+          - text: People who make
+          - emphasis [ref=f3e15]: the day matter.
+        - paragraph [ref=f3e16]: Every journey is shaped by the people who welcome, guide, navigate, cook, carry, and care for Coron Island.
+      - figure "With the island, not around it." [ref=f3e17]:
+        - img "Tagbanua hosts together on Coron Island" [ref=f3e18]
+    - generic [ref=f3e20]:
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]: "01"
+        - paragraph [ref=f3e23]: Meet the team
+      - generic [ref=f3e24]:
+        - heading [level=2] [ref=f3e25]:
+          - text: Many hands.
+          - emphasis [ref=f3e26]: One shared horizon.
+        - generic [ref=f3e27]:
+          - paragraph [ref=f3e28]: Red Carabao is not a cast of characters. It is a group of neighbors, hosts, crew, and collaborators who make each day on Coron Island feel considered and personal.
+          - paragraph [ref=f3e29]: Get to know the people who make room for travelers while keeping the island at the center of the story.
+    - region [ref=f3e30]:
+      - generic [ref=f3e31]:
+        - paragraph [ref=f3e32]: The people behind the day
+        - heading [level=2] [ref=f3e33]:
+          - text: A living
+          - emphasis [ref=f3e34]: field note.
+        - paragraph [ref=f3e35]: Individual stories are being gathered with care. Until then, meet the roles and faces that make the journey possible.
+      - generic [ref=f3e36]:
+        - article [ref=f3e37]:
+          - figure [ref=f3e38]:
+            - img "Tagbanua hosts together on Coron Island" [ref=f3e39]
+          - generic [ref=f3e40]:
+            - paragraph [ref=f3e41]: Island Hosts
+            - heading "Tagbanua Family" [level=3] [ref=f3e42]
+            - paragraph [ref=f3e43]: Their story will be shared here with their approval.
+        - article [ref=f3e44]:
+          - figure [ref=f3e45]:
+            - img "Captain Benjie on the water in Coron" [ref=f3e46]
+          - generic [ref=f3e47]:
+            - paragraph [ref=f3e48]: Licensed Boat Captain
+            - heading "Captain Benjie" [level=3] [ref=f3e49]
+            - paragraph [ref=f3e50]: A profile from the water is coming soon.
+        - article [ref=f3e51]:
+          - figure [ref=f3e52]:
+            - img "Aldrich from Red Carabao" [ref=f3e53]
+          - generic [ref=f3e54]:
+            - paragraph [ref=f3e55]: Director
+            - heading "Aldrich" [level=3] [ref=f3e56]
+            - paragraph [ref=f3e57]: A personal note from Aldrich is forthcoming.
+        - article [ref=f3e58]:
+          - figure [ref=f3e59]:
+            - img "Red Carabao guides in Coron" [ref=f3e60]
+          - generic [ref=f3e61]:
+            - paragraph [ref=f3e62]: Experienced Leads
+            - heading "Our Guides" [level=3] [ref=f3e63]
+            - paragraph [ref=f3e64]: Guide stories will be added here soon.
+        - article [ref=f3e65]:
+          - figure [ref=f3e66]:
+            - img "Red Carabao island hosts together" [ref=f3e67]
+          - generic [ref=f3e68]:
+            - paragraph [ref=f3e69]: Island Hosts
+            - heading "Hosts" [level=3] [ref=f3e70]
+            - paragraph [ref=f3e71]: More of the people behind each welcome, soon.
+        - article [ref=f3e72]:
+          - figure [ref=f3e73]:
+            - img "Red Carabao volunteers on Coron Island" [ref=f3e74]
+          - generic [ref=f3e75]:
+            - paragraph [ref=f3e76]: Community Crew
+            - heading "Volunteers" [level=3] [ref=f3e77]
+            - paragraph [ref=f3e78]: Volunteer profiles will be shared here soon.
+        - article [ref=f3e79]:
+          - figure [ref=f3e80]:
+            - img "Robert from the Red Carabao boat crew" [ref=f3e81]
+          - generic [ref=f3e82]:
+            - paragraph [ref=f3e83]: Boat Crew
+            - heading "Robert" [level=3] [ref=f3e84]
+            - paragraph [ref=f3e85]: A profile from Robert is coming soon.
+    - generic [ref=f3e86]:
+      - generic [ref=f3e87]:
+        - paragraph [ref=f3e88]: Join our team
+        - heading [level=2] [ref=f3e89]:
+          - text: Bring good work
+          - emphasis [ref=f3e90]: to the island.
+        - paragraph [ref=f3e91]: Interested in collaborating with Red Carabao? Start a conversation with the team directly.
+        - generic [ref=f3e92]:
+          - link "Email the team" [ref=f3e93] [cursor=pointer]:
+            - /url: mailto:info@redcarabao.com
+          - link "WhatsApp" [ref=f3e97] [cursor=pointer]:
+            - /url: https://wa.me/639952350304
+      - generic [ref=f3e100]:
+        - generic [ref=f3e105]:
+          - generic [ref=f3e106]: National Highway, Barangay V
+          - generic [ref=f3e107]: Coron, Palawan 5316
+        - generic [ref=f3e108]: We are online:MON, WED, FRI | 17:00 to 20:00 PHILIPPINE TIME
+        - link "info@redcarabao.com" [ref=f3e114] [cursor=pointer]:
+          - /url: mailto:info@redcarabao.com
+        - link "+63 995 235 0304" [ref=f3e121] [cursor=pointer]:
+          - /url: https://wa.me/639952350304
+      - separator [ref=f3e127]
+  - contentinfo [ref=f3e128]:
+    - generic [ref=f3e129]:
+      - generic [ref=f3e130]:
+        - link "Red Carabao home" [ref=f3e131] [cursor=pointer]:
+          - /url: /
+          - img "Red Carabao" [ref=f3e132]
+        - paragraph [ref=f3e133]: Travel with purpose. Leave a positive footprint.
+      - generic [ref=f3e134]:
+        - link "info@redcarabao.com" [ref=f3e135] [cursor=pointer]:
+          - /url: mailto:info@redcarabao.com
+        - link "+63 995 235 0304" [ref=f3e139] [cursor=pointer]:
+          - /url: https://wa.me/639952350304
+        - link "Instagram" [ref=f3e142] [cursor=pointer]:
+          - /url: https://instagram.com/redcarabao
+      - button "Apply for an expedition" [ref=f3e146] [cursor=pointer]
+    - separator [ref=f3e147]
+    - generic [ref=f3e148]:
+      - generic [ref=f3e149]: © 2026 Red Carabao Philippines, Inc.
+      - generic [ref=f3e150]:
+        - link "Terms & Conditions" [ref=f3e151] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/travel-guide
+        - text: ·
+        - link "Privacy Policy" [ref=f3e152] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/copy-of-terms-conditions
+        - text: ·
+        - link "Contact" [ref=f3e153] [cursor=pointer]:
+          - /url: /about-us
+  - region "Notifications alt+T"

@@ -1,0 +1,9 @@
+[     118ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5175/node_modules/.vite/deps/react-dom_client.js?v=55c97b2d:14335
+[   19287ms] [ERROR] Base UI: A component that acts as a button expected a native <button> because the `nativeButton` prop is true. Rendering a non-<button> removes native button semantics, which can impact forms and accessibility. Use a real <button> in the `render` prop, or set `nativeButton` to `false`.
+    at SheetClose (http://127.0.0.1:5175/src/components/ui/sheet.tsx:32:25)
+    at http://127.0.0.1:5175/src/components/site/site-header.tsx:30:63
+    at Array.map (<anonymous>)
+    at NavigationLinks (http://127.0.0.1:5175/src/components/site/site-header.tsx:30:24)
+    at SiteHeader (http://127.0.0.1:5175/src/components/site/site-header.tsx:146:23)
+    at SiteLayout (http://127.0.0.1:5175/src/components/site/site-layout.tsx:39:20)
+    at App (http://127.0.0.1:5175/src/App.tsx:9:76) @ http://127.0.0.1:5175/@vite/client:524

@@ -1,0 +1,2 @@
+[     801ms] [WARNING] Unrecognized feature: 'vr'. @ https://www.redcarabao.com/island-crash:2699
+[    1609ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1

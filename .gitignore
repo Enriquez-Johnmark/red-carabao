@@ -1,0 +1,16 @@
+node_modules/
+dist/
+
+# Personal Codex conventions and local skill installations
+AGENTS.md
+.agents/
+.codex/
+skills-lock.json
+docs/architecture/bulletproof-react.md
+
+# Local Impeccable design context
+.impeccable/
+.superpowers/
+PRODUCT.md
+DESIGN.md
+docs/design/impeccable-workflow.md

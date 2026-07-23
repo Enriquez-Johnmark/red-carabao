@@ -1,0 +1,102 @@
+- generic [ref=f2e3]:
+  - link "Skip to content" [ref=f2e4] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - link "Red Carabao home" [ref=f2e7] [cursor=pointer]:
+        - /url: /
+        - img "Red Carabao" [ref=f2e8]
+      - navigation "Main navigation" [ref=f2e9]:
+        - link "Home" [ref=f2e10] [cursor=pointer]:
+          - /url: /
+        - link "Island Crash" [ref=f2e11] [cursor=pointer]:
+          - /url: /island-crash
+        - link "About Us" [ref=f2e12] [cursor=pointer]:
+          - /url: /about-us
+      - button "Apply for an expedition" [ref=f2e14] [cursor=pointer]
+  - main [ref=f2e15]:
+    - generic [ref=f2e16]:
+      - img "A boat on the water near Coron Island" [ref=f2e17]
+      - generic [ref=f2e19]:
+        - paragraph [ref=f2e20]: One day · Coron, Palawan
+        - generic [ref=f2e21]: Red Carabao signature
+        - heading [level=1] [ref=f2e22]:
+          - text: Island
+          - emphasis [ref=f2e23]: Crash.
+        - paragraph [ref=f2e24]: One day in remote beach coves, shared over good food and a deeper way into Coron Island.
+        - button "Apply for an expedition" [ref=f2e25] [cursor=pointer]
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - generic [ref=f2e28]: "01"
+        - paragraph [ref=f2e29]: What’s an Island Crash?
+      - generic [ref=f2e30]:
+        - heading [level=2] [ref=f2e31]:
+          - text: Not island-hopping.
+          - emphasis [ref=f2e32]: Island listening.
+        - generic [ref=f2e33]:
+          - paragraph [ref=f2e34]: Island Crash is a one-day escape to remote beach coves in Coron, blending island exploration with meaningful encounters with local Tagbanua culture.
+          - paragraph [ref=f2e35]: Trips are exclusive and application-only to help preserve the dignity of the experience and protect culture from overtourism.
+    - generic [ref=f2e36]:
+      - img "A shared Filipino BBQ prepared at an island camp" [ref=f2e38]
+      - generic [ref=f2e39]:
+        - paragraph [ref=f2e40]: The day, in three movements
+        - list [ref=f2e41]:
+          - listitem [ref=f2e42]:
+            - generic [ref=f2e47]:
+              - heading "Find the quiet coves" [level=2] [ref=f2e48]
+              - paragraph [ref=f2e49]: Island Crash is a one-day escape to remote beach coves in Coron—time for clear water, island exploration, and good company away from the usual rush.
+          - listitem [ref=f2e50]:
+            - generic [ref=f2e56]:
+              - heading "Share a Filipino BBQ" [level=2] [ref=f2e57]
+              - paragraph [ref=f2e58]: Every Island Crash includes a simple shared BBQ lunch with plenty of vegetarian options when requested. Guests are welcome to bring beers and snacks to share.
+          - listitem [ref=f2e59]:
+            - generic [ref=f2e63]:
+              - heading "Unwind at Camp Carabao" [level=2] [ref=f2e64]
+              - paragraph [ref=f2e65]: Feel at home at the private base camp, where Tagbanua families welcome the group into the real rhythms of island life.
+    - generic [ref=f2e66]:
+      - generic [ref=f2e67]:
+        - paragraph [ref=f2e68]: The island hosts
+        - heading [level=2] [ref=f2e69]:
+          - text: Make yourself
+          - emphasis [ref=f2e70]: at home.
+        - paragraph [ref=f2e71]: As a group, guests paddle to neighboring beaches to meet and learn from the families who call this island home. Tagbanua hosts share weaving and coffee traditions with curious visitors.
+        - generic [ref=f2e72]: A day built around real connection, not a checklist.
+        - button "Ask about a future Island Crash" [ref=f2e75] [cursor=pointer]
+      - img "Guests gathered with Red Carabao hosts at Camp Carabao" [ref=f2e76]
+    - generic [ref=f2e77]:
+      - img "A quiet stretch of Coron coastline" [ref=f2e78]
+      - generic [ref=f2e79]:
+        - paragraph [ref=f2e80]: A different kind of access
+        - heading [level=2] [ref=f2e81]:
+          - text: Come curious.
+          - emphasis [ref=f2e82]: Leave connected.
+        - separator [ref=f2e83]
+        - paragraph [ref=f2e84]: There are no dates or booking forms here yet—only a clear invitation to understand the journey before the next applications open.
+  - contentinfo [ref=f2e85]:
+    - generic [ref=f2e86]:
+      - generic [ref=f2e87]:
+        - link "Red Carabao home" [ref=f2e88] [cursor=pointer]:
+          - /url: /
+          - img "Red Carabao" [ref=f2e89]
+        - paragraph [ref=f2e90]: Travel with purpose. Leave a positive footprint.
+      - generic [ref=f2e91]:
+        - link "info@redcarabao.com" [ref=f2e92] [cursor=pointer]:
+          - /url: mailto:info@redcarabao.com
+        - link "+63 995 235 0304" [ref=f2e96] [cursor=pointer]:
+          - /url: https://wa.me/639952350304
+        - link "Instagram" [ref=f2e99] [cursor=pointer]:
+          - /url: https://instagram.com/redcarabao
+      - button "Apply for an expedition" [ref=f2e103] [cursor=pointer]
+    - separator [ref=f2e104]
+    - generic [ref=f2e105]:
+      - generic [ref=f2e106]: © 2026 Red Carabao Philippines, Inc.
+      - generic [ref=f2e107]:
+        - link "Terms & Conditions" [ref=f2e108] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/travel-guide
+        - text: ·
+        - link "Privacy Policy" [ref=f2e109] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/copy-of-terms-conditions
+        - text: ·
+        - link "Contact" [ref=f2e110] [cursor=pointer]:
+          - /url: /about-us
+  - region "Notifications alt+T"

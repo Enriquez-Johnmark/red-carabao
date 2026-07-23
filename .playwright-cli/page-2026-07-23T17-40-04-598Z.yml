@@ -1,0 +1,95 @@
+- generic [ref=f4e3]:
+  - link "Skip to content" [ref=f4e4] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link "Red Carabao home" [ref=f4e7] [cursor=pointer]:
+        - /url: /
+        - img "Red Carabao" [ref=f4e8]
+      - button "Open navigation" [ref=f4e9] [cursor=pointer]
+  - main [ref=f4e10]:
+    - generic [ref=f4e11]:
+      - generic [ref=f4e12]:
+        - paragraph [ref=f4e13]: Our story
+        - heading [level=1] [ref=f4e14]:
+          - text: Travel should leave a place
+          - emphasis [ref=f4e15]: stronger.
+        - paragraph [ref=f4e16]: Red Carabao is a social enterprise based in Coron, Palawan, connecting curious explorers with more meaningful, sustainable travel experiences.
+        - link "Meet Island Crash" [ref=f4e17] [cursor=pointer]:
+          - /url: /island-crash
+      - img "Red Carabao guests gathered along the Coron coast" [ref=f4e21]
+    - generic [ref=f4e22]:
+      - generic [ref=f4e23]:
+        - generic [ref=f4e24]: "01"
+        - paragraph [ref=f4e25]: Purpose is part of the route
+      - generic [ref=f4e26]:
+        - heading [level=2] [ref=f4e27]:
+          - text: Travel is more meaningful when it gives
+          - emphasis [ref=f4e28]: something back.
+        - generic [ref=f4e29]:
+          - paragraph [ref=f4e30]: Every tour directly supports livelihood programs, helps preserve cultural heritage, and funds youth education—while also contributing to the Rice Mission, providing food support to local families who call this paradise home.
+          - paragraph [ref=f4e31]: Through shared meals, storytelling, and hands-on cultural experiences, Red Carabao creates genuine connections between travelers and community.
+    - generic [ref=f4e32]:
+      - img "People gathered at a Red Carabao beach camp" [ref=f4e33]
+      - generic [ref=f4e34]:
+        - paragraph [ref=f4e35]: The people who welcome you
+        - heading [level=2] [ref=f4e36]:
+          - text: Built with the island,
+          - emphasis [ref=f4e37]: not around it.
+        - paragraph [ref=f4e38]: Tagbanua families are not a backdrop to the day. They are hosts, neighbors, and the people who make the experience possible.
+        - generic [ref=f4e39]:
+          - generic [ref=f4e40]: Livelihoods
+          - generic [ref=f4e44]: Heritage
+          - generic [ref=f4e48]: Youth education
+    - generic [ref=f4e52]:
+      - generic [ref=f4e53]:
+        - paragraph [ref=f4e54]: Rice Mission 2026
+        - heading [level=2] [ref=f4e55]:
+          - text: Care that travels
+          - emphasis [ref=f4e56]: beyond the shore.
+        - paragraph [ref=f4e57]: Red Carabao’s biggest social effort yet promises a year’s supply of rice to marginalized Filipino families living on and around Coron Island.
+      - img "People sharing a meal in Coron" [ref=f4e58]
+    - generic [ref=f4e59]:
+      - generic [ref=f4e60]:
+        - paragraph [ref=f4e61]: Get in touch
+        - heading "Planning a meaningful day in Coron?" [level=2] [ref=f4e62]
+        - paragraph [ref=f4e63]: Explore Island Crash now. The next application experience is still being prepared.
+        - button "Apply for an expedition" [ref=f4e64] [cursor=pointer]
+      - generic [ref=f4e65]:
+        - generic [ref=f4e70]:
+          - generic [ref=f4e71]: National Highway, Barangay V
+          - generic [ref=f4e72]: Coron, Palawan 5316
+        - link "+63 995 235 0304" [ref=f4e76] [cursor=pointer]:
+          - /url: https://wa.me/639952350304
+        - link "info@redcarabao.com" [ref=f4e81] [cursor=pointer]:
+          - /url: mailto:info@redcarabao.com
+        - paragraph [ref=f4e82]: We are online:MON, WED, FRI | 17:00 to 20:00 PHILIPPINE TIME
+      - separator [ref=f4e83]
+  - contentinfo [ref=f4e84]:
+    - generic [ref=f4e85]:
+      - generic [ref=f4e86]:
+        - link "Red Carabao home" [ref=f4e87] [cursor=pointer]:
+          - /url: /
+          - img "Red Carabao" [ref=f4e88]
+        - paragraph [ref=f4e89]: Travel with purpose. Leave a positive footprint.
+      - generic [ref=f4e90]:
+        - link "info@redcarabao.com" [ref=f4e91] [cursor=pointer]:
+          - /url: mailto:info@redcarabao.com
+        - link "+63 995 235 0304" [ref=f4e95] [cursor=pointer]:
+          - /url: https://wa.me/639952350304
+        - link "Instagram" [ref=f4e98] [cursor=pointer]:
+          - /url: https://instagram.com/redcarabao
+      - button "Apply for an expedition" [ref=f4e102] [cursor=pointer]
+    - separator [ref=f4e103]
+    - generic [ref=f4e104]:
+      - generic [ref=f4e105]: © 2026 Red Carabao Philippines, Inc.
+      - generic [ref=f4e106]:
+        - link "Terms & Conditions" [ref=f4e107] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/travel-guide
+        - text: ·
+        - link "Privacy Policy" [ref=f4e108] [cursor=pointer]:
+          - /url: https://www.redcarabao.com/copy-of-terms-conditions
+        - text: ·
+        - link "Contact" [ref=f4e109] [cursor=pointer]:
+          - /url: /about-us
+  - region "Notifications alt+T"

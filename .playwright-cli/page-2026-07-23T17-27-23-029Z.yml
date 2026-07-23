@@ -1,0 +1,117 @@
+- generic [ref=f18e3]:
+  - region "top of page"
+  - generic [ref=f18e10]:
+    - banner [ref=f18e11]:
+      - generic [ref=f18e17]:
+        - generic:
+          - generic:
+            - generic [ref=f18e22]:
+              - link [ref=f18e28] [cursor=pointer]:
+                - /url: https://www.redcarabao.com
+              - navigation "Site" [ref=f18e52]:
+                - list [ref=f18e53]:
+                  - listitem [ref=f18e54]:
+                    - link [ref=f18e55] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com
+                      - paragraph [ref=f18e59]: Home
+                  - listitem [ref=f18e60]:
+                    - link [ref=f18e61] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com/island-crash
+                      - paragraph [ref=f18e65]: Island Crash
+                  - listitem [ref=f18e66]:
+                    - link [ref=f18e67] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com/about-us
+                      - paragraph [ref=f18e71]: About Us
+              - link "SEE ALL 2026 TRIPS" [ref=f18e77] [cursor=pointer]:
+                - /url: https://www.redcarabao.com/events-1/island-crash-season-1
+            - button [ref=f18e82] [cursor=pointer]
+    - main [ref=f18e88]:
+      - generic [ref=f18e93]:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=f18e94]:
+                - generic:
+                  - generic:
+                    - img "e497f7e9-1529-448d-829d-8a8e0052728a 3.JPG" [ref=f18e100]
+                    - heading "Island Crash" [level=1] [ref=f18e101]
+              - generic [ref=f18e107]:
+                - generic:
+                  - generic:
+                    - heading "what's an island crash?" [level=1] [ref=f18e111]
+                    - generic:
+                      - paragraph [ref=f18e115]:
+                        - generic [ref=f18e116]: Island Crash💥 is a one-day escape to remote beach coves in Coron, blending great company, island exploration, and meaningful encounters with local Tagbanua culture.
+                      - paragraph [ref=f18e117]
+                      - paragraph [ref=f18e118]: Our trips are exclusive and by application-only to help preserve the dignity of our experiences and protect culture from overtourism.
+              - generic [ref=f18e119]:
+                - generic:
+                  - generic:
+                    - generic [ref=f18e123]:
+                      - img "DSC00849.jpg" [ref=f18e128]
+                      - generic [ref=f18e129]:
+                        - img "IMG_4775 2.JPG" [ref=f18e135]
+                        - generic [ref=f18e136]:
+                          - generic:
+                            - generic:
+                              - heading "Filipino bbq" [level=2] [ref=f18e140]
+                              - paragraph [ref=f18e143]: Every Island Crash💥 includes a simple BBQ lunch with plenty of vegetarian options (just be sure to let us know). You're encouraged to bring your own beers and snacks to share!
+                    - generic [ref=f18e148]:
+                      - generic [ref=f18e149]:
+                        - generic:
+                          - generic:
+                            - heading "Unwind at camp carabao!" [level=2] [ref=f18e153]
+                            - heading "Feel at home at our private base camp, where Tagbanua families welcome you. Experience the real rhythms of life in paradise. As a group, we paddle to neighboring beaches to meet and learn from the families who call this island home." [level=2] [ref=f18e156]
+                      - img "DJI_0358-4.jpg" [ref=f18e163]
+                    - generic [ref=f18e168]:
+                      - img "IMG_2381.JPG.HEIC" [ref=f18e174]
+                      - generic [ref=f18e175]:
+                        - generic:
+                          - generic:
+                            - heading "meet the tribe!" [level=2] [ref=f18e179]
+                            - paragraph [ref=f18e182]:
+                              - generic [ref=f18e183]: Our Tagbanua hosts love to share their weaving and coffee traditions to curious visitors. This 2026, we dream of developing and selling ornaments sourced and crafted on Coron Island at Christmas Markets around Europe.
+              - heading "No events at the moment" [level=2] [ref=f18e193]
+    - contentinfo [ref=f18e194]:
+      - generic [ref=f18e200]:
+        - generic:
+          - generic:
+            - generic [ref=f18e206]:
+              - img "Gemini_Generated_Image_6usrqm6usrqm6usr 1.png" [ref=f18e211]
+              - generic:
+                - generic:
+                  - heading "GET IN TOUCH" [level=5] [ref=f18e212]
+                  - generic:
+                    - paragraph [ref=f18e214]:
+                      - generic [ref=f18e215]: "We are online:"
+                    - paragraph [ref=f18e217]:
+                      - generic [ref=f18e218]: MON, WED, FRI | 17:00 to 20:00 PHILIPPINE TIME
+                    - paragraph [ref=f18e221]
+                  - generic:
+                    - paragraph [ref=f18e222]:
+                      - generic [ref=f18e225]:
+                        - text: "Email:"
+                        - link "info@redcarabao.com" [ref=f18e226] [cursor=pointer]:
+                          - /url: mailto:info@redcarabao.com
+                    - paragraph [ref=f18e227]:
+                      - generic [ref=f18e228]: "WhatsApp: (+63) 9952350304"
+                    - paragraph [ref=f18e230]
+                    - paragraph [ref=f18e231]
+                    - paragraph [ref=f18e232]
+            - generic [ref=f18e238]:
+              - generic:
+                - generic:
+                  - paragraph [ref=f18e242]:
+                    - generic [ref=f18e243]: © 2025 Red Carabao Philippines, Inc.
+                  - paragraph [ref=f18e245]:
+                    - link "Terms & Conditions" [ref=f18e249] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com/travel-guide
+                  - paragraph [ref=f18e250]: "|"
+                  - paragraph [ref=f18e251]:
+                    - link "Privacy Policy" [ref=f18e255] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com/copy-of-terms-conditions
+                  - paragraph [ref=f18e256]: "|"
+                  - paragraph [ref=f18e257]:
+                    - link "Accessibility Statement" [ref=f18e261] [cursor=pointer]:
+                      - /url: https://www.redcarabao.com/accessibility-statement
+  - region "bottom of page"

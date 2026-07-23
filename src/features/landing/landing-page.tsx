@@ -1,0 +1,21 @@
+import { ArrowUpRight, Compass, HeartHandshake, Leaf, MapPinned, UtensilsCrossed } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+import { Badge } from '@/components/ui/badge'
+import { Separator } from '@/components/ui/separator'
+import { BookingDialog } from '@/components/site/booking-dialog'
+import { CinematicHero } from './components/cinematic-hero'
+import { faqs, homeMedia, islandGallery, pressMarks } from './data'
+
+export function LandingPage() {
+  return <main id="content" className="cinematic-home">
+    <CinematicHero />
+    <section className="home-introduction page-section"><div className="section-kicker"><span>01</span><p>Why Red Carabao</p></div><div className="introduction-grid"><h2>Travel with purpose.<br /><em>Leave a positive footprint.</em></h2><div className="prose-stack"><p>Red Carabao is a social enterprise based in Coron, Palawan connecting curious explorers with more meaningful, sustainable travel experiences.</p><p>Our signature journey, Island Crash, is a one-day expedition to remote beach coves on Coron Island, where partner Tagbanua families welcome travelers through shared meals, storytelling, and hands-on cultural experiences.</p><p>Every tour directly supports livelihoods, cultural heritage, youth education, and the Rice Mission.</p><Link className="editorial-link" to="/about-us">Our story <ArrowUpRight /></Link></div></div></section>
+    <section className="signature-section"><div className="signature-media"><img src={homeMedia.islandCrash} alt="Clear water and a beach cove on Coron Island" width="1600" height="1067" loading="lazy" /></div><div className="signature-copy"><p className="route-label">The signature journey</p><Badge>One day · Coron Island</Badge><h2>Island <em>Crash.</em></h2><p>A considered day of remote coves, a shared Filipino BBQ, and meaningful time with Tagbanua hosts at Camp Carabao.</p><div className="signature-points"><span><MapPinned /> Remote beach coves</span><span><UtensilsCrossed /> Filipino BBQ</span><span><HeartHandshake /> Tagbanua hosts</span></div><Link className="coral-link" to="/island-crash">Explore Island Crash <ArrowUpRight /></Link></div></section>
+    <section className="press-section page-section"><p className="route-label">Featured in</p><div className="press-marks">{pressMarks.map((mark) => <img key={mark.name} src={mark.image} alt={mark.name} width={mark.width} height={mark.height} loading="lazy" />)}</div></section>
+    <section className="gallery-section"><div className="gallery-heading"><p className="route-label">Guest moments</p><h2>The kind of day that keeps<br /><em>turning up in stories.</em></h2></div><div className="island-gallery">{islandGallery.map((item, index) => <figure key={item.alt} className={`gallery-item gallery-item-${index + 1}`}><img src={item.image} alt={item.alt} width={item.width} height={item.height} loading="lazy" /></figure>)}</div></section>
+    <section className="rice-section"><div className="rice-copy"><p className="route-label">Rice Mission 2026</p><h2>A year of rice,<br /><em>shared forward.</em></h2><p>This 2026, Red Carabao is launching its biggest social effort yet: promising a year’s supply of rice to marginalized Filipino families living on and around Coron Island.</p><div className="rice-note"><Leaf /> The journey is part of the support.</div></div><img src={homeMedia.riceMission} alt="People gathered near a Red Carabao community meal" width="1600" height="1067" loading="lazy" /></section>
+    <section className="faq-section page-section"><div><p className="route-label">A few good questions</p><h2>Before you<br />pack light.</h2><p className="section-intro-copy">The next applications are being prepared. Until then, get to know the island and the way Red Carabao travels.</p></div><Accordion className="faq-list">{faqs.map(([question, answer], index) => <AccordionItem key={question} value={`question-${index}`}><AccordionTrigger>{question}</AccordionTrigger><AccordionContent><p>{answer}</p></AccordionContent></AccordionItem>)}</Accordion></section>
+    <section className="home-application"><Compass /><div><p className="route-label">Future expeditions</p><h2>Keep Coron on your horizon.</h2></div><BookingDialog /></section>
+  </main>
+}

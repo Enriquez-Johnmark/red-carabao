@@ -1,0 +1,15 @@
+import { ArrowUpRight, Mail, MapPin, MessageCircle, Waves } from 'lucide-react'
+import { Separator } from '@/components/ui/separator'
+import { teamContact, teamMembers } from './data'
+
+export function TeamPage() {
+  return <main id="content" className="team-page">
+    <section className="team-hero">
+      <div><p className="route-label">The Red Carabao circle</p><h1>People who make<br /><em>the day matter.</em></h1><p>Every journey is shaped by the people who welcome, guide, navigate, cook, carry, and care for Coron Island.</p></div>
+      <figure><img src={teamMembers[0].image} alt={teamMembers[0].alt} width={teamMembers[0].width} height={teamMembers[0].height} fetchPriority="high" /><figcaption>With the island, not around it.</figcaption></figure>
+    </section>
+    <section className="team-introduction page-section"><div className="section-kicker"><span>01</span><p>Meet the team</p></div><div className="introduction-grid"><h2>Many hands.<br /><em>One shared horizon.</em></h2><div className="prose-stack"><p>Red Carabao is not a cast of characters. It is a group of neighbors, hosts, crew, and collaborators who make each day on Coron Island feel considered and personal.</p><p>Get to know the people who make room for travelers while keeping the island at the center of the story.</p></div></div></section>
+    <section className="team-roster" aria-labelledby="team-roster-title"><div className="team-roster-heading"><p className="route-label">The people behind the day</p><h2 id="team-roster-title">A living<br /><em>field note.</em></h2><p>Individual stories are being gathered with care. Until then, meet the roles and faces that make the journey possible.</p></div><div className="team-members">{teamMembers.map((member, index) => <article className={`team-member team-member-${index + 1}`} key={member.name}><figure><img src={member.image} alt={member.alt} width={member.width} height={member.height} loading="lazy" /></figure><div><p className="team-role">{member.role}</p><h3>{member.name}</h3><p>{member.profile}</p></div></article>)}</div></section>
+    <section className="team-join page-section"><div className="team-join-copy"><p className="route-label">Join our team</p><h2>Bring good work<br /><em>to the island.</em></h2><p>Interested in collaborating with Red Carabao? Start a conversation with the team directly.</p><div className="team-join-actions"><a className="team-action team-action-primary" href={`mailto:${teamContact.email}`}><Mail /> Email the team</a><a className="team-action team-action-secondary" href={teamContact.whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle /> WhatsApp</a></div></div><address><div><MapPin /><span>{teamContact.address.map((line) => <span key={line}>{line}<br /></span>)}</span></div><div><Waves /><span>We are online:<br />{teamContact.hours}</span></div><a href={`mailto:${teamContact.email}`}><Mail /> {teamContact.email} <ArrowUpRight /></a><a href={teamContact.whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle /> {teamContact.whatsapp} <ArrowUpRight /></a></address><Separator /></section>
+  </main>
+}
