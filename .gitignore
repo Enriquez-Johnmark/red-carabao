@@ -8,3 +8,5 @@ skills-lock.json
 # Local Impeccable runtime state and brainstorming artifacts
 .impeccable/
 .superpowers/
+output/
+.playwright-cli/

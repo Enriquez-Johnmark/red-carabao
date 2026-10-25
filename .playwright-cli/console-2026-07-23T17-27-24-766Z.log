@@ -1,7 +1,0 @@
-[     141ms] [WARNING] Unrecognized feature: 'vr'. @ https://www.redcarabao.com/about-us:1728
-[    5816ms] [WARNING] [2026-07-23T17:27:30.581Z]  @firebase/app-compat: 
-    Warning: Firebase is already defined in the global scope. Please make sure
-    Firebase library is only loaded once.
-   @ https://static.parastorage.com/services/chat-widget/9f679cf6b8eb1bf12ce631815a9fa43b22d2a33ffd80c75f5ea9604a/chat-sdk.chunk.min.js:3342
-[    9939ms] [WARNING] The resource https://static.parastorage.com/services/pro-gallery-tpa/1.1526.0/WixProGalleryViewerWidget.bundle.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.redcarabao.com/about-us:0
-[    9939ms] [WARNING] The resource https://static.parastorage.com/services/ecom-platform-cart-icon/1.2332.0/CartIconViewerWidgetNoCss.bundle.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.redcarabao.com/about-us:0

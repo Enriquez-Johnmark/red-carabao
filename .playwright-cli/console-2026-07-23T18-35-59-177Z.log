@@ -1,7 +1,0 @@
-[    1738ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/red-carabao/node_modules/.vite/deps/react-dom_client.js?v=55c97b2d:14335
-[    1807ms] [WARNING] No routes matched location "/red-carabao"  @ http://127.0.0.1:5173/red-carabao/@vite/client:524
-[    1807ms] [WARNING] No routes matched location "/red-carabao"  @ http://127.0.0.1:5173/red-carabao/@vite/client:524
-[    2226ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5173/favicon.ico:0
-[    7074ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/red-carabao/node_modules/.vite/deps/react-dom_client.js?v=55c97b2d:14335
-[    7095ms] [WARNING] No routes matched location "/red-carabao"  @ http://127.0.0.1:5173/red-carabao/@vite/client:524
-[    7095ms] [WARNING] No routes matched location "/red-carabao"  @ http://127.0.0.1:5173/red-carabao/@vite/client:524
